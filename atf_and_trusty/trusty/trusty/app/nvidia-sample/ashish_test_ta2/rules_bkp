@@ -1,0 +1,9 @@
+LOCAL_DIR := $(GET_LOCAL_DIR)
+MODULE := $(LOCAL_DIR)
+MANIFEST := $(LOCAL_DIR)/manifest.json
+MODULE_SRCS += \
+	$(LOCAL_DIR)/ashish_test_ta.c \
+MODULE_LIBRARY_DEPS += \
+	trusty/user/base/lib/libc-trusty \
+	trusty/user/base/lib/storage \
+include make/trusted_app.mk

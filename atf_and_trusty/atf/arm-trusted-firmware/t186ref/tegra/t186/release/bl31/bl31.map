@@ -1,0 +1,2401 @@
+
+Allocating common symbols
+Common symbol       size              file
+
+rt_svc_descs_indices
+                    0x80              ./t186ref/tegra/t186/release/bl31/runtime_svc.o
+psci_cpu_pd_nodes   0x80              ./t186ref/tegra/t186/release/bl31/psci_common.o
+psci_caps           0x4               ./t186ref/tegra/t186/release/bl31/psci_setup.o
+psci_non_cpu_pd_nodes
+                    0x30              ./t186ref/tegra/t186/release/bl31/psci_common.o
+psci_plat_pm_ops    0x8               ./t186ref/tegra/t186/release/bl31/psci_common.o
+percpu_data         0x400             ./t186ref/tegra/t186/release/bl31/cpu_data_array.o
+psci_spd_pm         0x8               ./t186ref/tegra/t186/release/bl31/psci_common.o
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/build_message.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/build_message.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/build_message.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/profiler.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/profiler.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/profiler.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_bl31_setup.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_bl31_setup.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_bl31_setup.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_common.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_common.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_common.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_delay_timer.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_delay_timer.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_delay_timer.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_fiq_glue.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_fiq_glue.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_fiq_glue.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_platform.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_platform.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_platform.o
+ .text.tegra_chipid_is_t132
+                0x0000000000000000       0x1c ./t186ref/tegra/t186/release/bl31/tegra_platform.o
+ .text.tegra_chipid_is_t210
+                0x0000000000000000       0x1c ./t186ref/tegra/t186/release/bl31/tegra_platform.o
+ .text.tegra_chipid_is_t210_b01
+                0x0000000000000000       0x30 ./t186ref/tegra/t186/release/bl31/tegra_platform.o
+ .text.tegra_chipid_is_t234
+                0x0000000000000000       0x1c ./t186ref/tegra/t186/release/bl31/tegra_platform.o
+ .text.tegra_platform_is_qt
+                0x0000000000000000       0x1c ./t186ref/tegra/t186/release/bl31/tegra_platform.o
+ .text.tegra_platform_is_emulation
+                0x0000000000000000       0x1c ./t186ref/tegra/t186/release/bl31/tegra_platform.o
+ .text.tegra_platform_is_unit_fpga
+                0x0000000000000000       0x1c ./t186ref/tegra/t186/release/bl31/tegra_platform.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_pm.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_pm.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_pm.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_sip_calls.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_sip_calls.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_sip_calls.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_topology.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_topology.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_topology.o
+ .text.plat_core_pos_by_mpidr
+                0x0000000000000000       0x24 ./t186ref/tegra/t186/release/bl31/tegra_topology.o
+ .comment       0x0000000000000000       0x31 ./t186ref/tegra/t186/release/bl31/tegra_topology.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_topology.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .text.gicd_read_isenabler
+                0x0000000000000000       0x14 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .text.gicd_read_icenabler
+                0x0000000000000000       0x14 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .text.gicd_read_ispendr
+                0x0000000000000000       0x14 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .text.gicd_read_icpendr
+                0x0000000000000000       0x14 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .text.gicd_read_isactiver
+                0x0000000000000000       0x14 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .text.gicd_read_icactiver
+                0x0000000000000000       0x14 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .text.gicd_read_ipriorityr
+                0x0000000000000000       0x10 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .text.gicd_read_itargetsr
+                0x0000000000000000       0x10 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .text.gicd_read_cpendsgir
+                0x0000000000000000       0x10 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .text.gicd_read_spendsgir
+                0x0000000000000000       0x10 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .text.gicd_write_ispendr
+                0x0000000000000000       0x14 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .text.gicd_write_icpendr
+                0x0000000000000000       0x14 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .text.gicd_write_isactiver
+                0x0000000000000000       0x14 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .text.gicd_write_icactiver
+                0x0000000000000000       0x14 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .text.gicd_write_itargetsr
+                0x0000000000000000       0x10 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .text.gicd_write_cpendsgir
+                0x0000000000000000       0x10 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .text.gicd_write_spendsgir
+                0x0000000000000000       0x10 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .text.gicd_set_igroupr
+                0x0000000000000000       0x30 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .text.gicd_set_icenabler
+                0x0000000000000000        0xc ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .text.gicd_set_ispendr
+                0x0000000000000000        0xc ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .text.gicd_set_icpendr
+                0x0000000000000000        0xc ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .text.gicd_set_isactiver
+                0x0000000000000000        0xc ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .text.gicd_set_icactiver
+                0x0000000000000000        0xc ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/intf.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/intf.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/intf.o
+ .text.tegra_bpmp_ipc_reset_module
+                0x0000000000000000       0x84 ./t186ref/tegra/t186/release/bl31/intf.o
+ .rodata.__func__.1547
+                0x0000000000000000       0x1c ./t186ref/tegra/t186/release/bl31/intf.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/ivc.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/ivc.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/ivc.o
+ .text.tegra_ivc_can_read
+                0x0000000000000000       0x1c ./t186ref/tegra/t186/release/bl31/ivc.o
+ .text.tegra_ivc_can_write
+                0x0000000000000000       0x1c ./t186ref/tegra/t186/release/bl31/ivc.o
+ .text.tegra_ivc_tx_empty
+                0x0000000000000000       0x30 ./t186ref/tegra/t186/release/bl31/ivc.o
+ .text.tegra_ivc_read
+                0x0000000000000000       0xbc ./t186ref/tegra/t186/release/bl31/ivc.o
+ .text.tegra_ivc_write
+                0x0000000000000000       0xd8 ./t186ref/tegra/t186/release/bl31/ivc.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/gic.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/gic.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/gic.o
+ .text.plat_ic_get_interrupt_type
+                0x0000000000000000       0x6c ./t186ref/tegra/t186/release/bl31/gic.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/gpcdma.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/gpcdma.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/gpcdma.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/memctrl_v2.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/memctrl_v2.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/memctrl_v2.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/smmu.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/smmu.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/smmu.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/mce.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/mce.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/mce.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/ari.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/ari.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/ari.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/nvg.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/nvg.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/nvg.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/se.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/se.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/se.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_memctrl.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_memctrl.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_memctrl.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_psci_handlers.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_psci_handlers.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_psci_handlers.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_setup.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_setup.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_setup.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_secondary.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_secondary.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_secondary.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_sip_calls.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_sip_calls.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_sip_calls.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_smmu.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_smmu.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_smmu.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/bl31_main.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/bl31_main.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/bl31_main.o
+ .text.bl31_lib_init
+                0x0000000000000000        0x4 ./t186ref/tegra/t186/release/bl31/bl31_main.o
+ .text.bl31_set_next_image_type
+                0x0000000000000000       0x34 ./t186ref/tegra/t186/release/bl31/bl31_main.o
+ .text.bl31_get_next_image_type
+                0x0000000000000000        0xc ./t186ref/tegra/t186/release/bl31/bl31_main.o
+ .rodata.bl31_set_next_image_type.str1.1
+                0x0000000000000000       0x23 ./t186ref/tegra/t186/release/bl31/bl31_main.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/interrupt_mgmt.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/interrupt_mgmt.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/interrupt_mgmt.o
+ .text.disable_intr_rm_local
+                0x0000000000000000       0x68 ./t186ref/tegra/t186/release/bl31/interrupt_mgmt.o
+ .text.enable_intr_rm_local
+                0x0000000000000000       0x78 ./t186ref/tegra/t186/release/bl31/interrupt_mgmt.o
+ .rodata.disable_intr_rm_local.str1.1
+                0x0000000000000000       0x26 ./t186ref/tegra/t186/release/bl31/interrupt_mgmt.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/bl31_context_mgmt.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/bl31_context_mgmt.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/bl31_context_mgmt.o
+ .text.cm_get_context_by_mpidr
+                0x0000000000000000       0x44 ./t186ref/tegra/t186/release/bl31/bl31_context_mgmt.o
+ .text.cm_set_context_by_mpidr
+                0x0000000000000000       0x4c ./t186ref/tegra/t186/release/bl31/bl31_context_mgmt.o
+ .text.cm_init_context
+                0x0000000000000000       0x40 ./t186ref/tegra/t186/release/bl31/bl31_context_mgmt.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/runtime_svc.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/runtime_svc.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/runtime_svc.o
+ .text.handle_runtime_svc
+                0x0000000000000000       0x98 ./t186ref/tegra/t186/release/bl31/runtime_svc.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/arm_arch_svc_setup.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/arm_arch_svc_setup.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/arm_arch_svc_setup.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/std_svc_setup.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/std_svc_setup.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/std_svc_setup.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/cpu_data_array.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/cpu_data_array.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/cpu_data_array.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/context_mgmt.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/context_mgmt.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/context_mgmt.o
+ .text.cm_get_scr_el3
+                0x0000000000000000       0x34 ./t186ref/tegra/t186/release/bl31/context_mgmt.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/errata_report.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/errata_report.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/errata_report.o
+ .text.errata_needs_reporting
+                0x0000000000000000       0x60 ./t186ref/tegra/t186/release/bl31/errata_report.o
+ .text.errata_print_msg
+                0x0000000000000000       0x58 ./t186ref/tegra/t186/release/bl31/errata_report.o
+ .rodata.errata_print_msg.str1.1
+                0x0000000000000000       0x57 ./t186ref/tegra/t186/release/bl31/errata_report.o
+ .comment       0x0000000000000000       0x31 ./t186ref/tegra/t186/release/bl31/errata_report.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/errata_report.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_off.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_off.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_off.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_on.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_on.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_on.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_suspend.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_suspend.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_suspend.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_common.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_common.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_common.o
+ .text.unlikely.psci_set_req_local_pwr_state.part.0
+                0x0000000000000000       0x20 ./t186ref/tegra/t186/release/bl31/psci_common.o
+ .text.psci_secondaries_brought_up
+                0x0000000000000000       0x60 ./t186ref/tegra/t186/release/bl31/psci_common.o
+ .rodata.psci_secondaries_brought_up.str1.1
+                0x0000000000000000        0xe ./t186ref/tegra/t186/release/bl31/psci_common.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_main.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_main.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_main.o
+ .text.psci_version
+                0x0000000000000000        0x8 ./t186ref/tegra/t186/release/bl31/psci_main.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_setup.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_setup.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_setup.o
+ .text.psci_prepare_next_non_secure_ctx
+                0x0000000000000000       0x38 ./t186ref/tegra/t186/release/bl31/psci_setup.o
+ .rodata.psci_prepare_next_non_secure_ctx.str1.1
+                0x0000000000000000       0x3a ./t186ref/tegra/t186/release/bl31/psci_setup.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_system_off.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_system_off.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_system_off.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/bakery_lock_normal.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/bakery_lock_normal.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/bakery_lock_normal.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/trusty.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/trusty.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/trusty.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/bl_common.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/bl_common.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/bl_common.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tf_printf.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tf_printf.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tf_printf.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/assert.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/assert.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/assert.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/mem.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/mem.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/mem.o
+ .text.memcmp   0x0000000000000000       0x34 ./t186ref/tegra/t186/release/bl31/mem.o
+ .text.memchr   0x0000000000000000       0x28 ./t186ref/tegra/t186/release/bl31/mem.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/putchar.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/putchar.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/putchar.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/strlen.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/strlen.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/strlen.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/strnlen.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/strnlen.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/strnlen.o
+ .text.strnlen  0x0000000000000000       0x24 ./t186ref/tegra/t186/release/bl31/strnlen.o
+ .comment       0x0000000000000000       0x31 ./t186ref/tegra/t186/release/bl31/strnlen.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/strnlen.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/xlat_tables_arch.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/xlat_tables_arch.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/xlat_tables_arch.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/xlat_tables_common.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/xlat_tables_common.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/xlat_tables_common.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/xlat_tables_internal.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/xlat_tables_internal.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/xlat_tables_internal.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/console.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/console.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/console.o
+ .text.console_getc
+                0x0000000000000000        0xc ./t186ref/tegra/t186/release/bl31/console.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_globals.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_globals.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_globals.o
+ .text.tegra_get_sec_entry_point
+                0x0000000000000000        0xc ./t186ref/tegra/t186/release/bl31/tegra_globals.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_helpers.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_helpers.o
+ .text.plat_is_my_cpu_primary
+                0x0000000000000000       0x14 ./t186ref/tegra/t186/release/bl31/tegra_helpers.o
+ .text.platform_get_core_pos
+                0x0000000000000000       0x1c ./t186ref/tegra/t186/release/bl31/tegra_helpers.o
+ .text.plat_secondary_cold_boot_setup
+                0x0000000000000000        0x8 ./t186ref/tegra/t186/release/bl31/tegra_helpers.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/16550_console.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/16550_console.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/16550_console.o
+ .text.console_core_getc
+                0x0000000000000000       0x18 ./t186ref/tegra/t186/release/bl31/16550_console.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/denver.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/denver.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/denver.o
+ .rodata.gic_reg_name
+                0x0000000000000000       0x66 ./t186ref/tegra/t186/release/bl31/denver.o
+ .text.check_errata_cve_2018_3639
+                0x0000000000000000        0x8 ./t186ref/tegra/t186/release/bl31/denver.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .rodata.gic_reg_name
+                0x0000000000000000       0x66 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.check_errata_813419
+                0x0000000000000000        0x8 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.check_errata_cve_2018_3639
+                0x0000000000000000        0x8 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/nvg_helpers.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/nvg_helpers.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/nvg_helpers.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_trampoline.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_trampoline.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_trampoline.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/bl31_entrypoint.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/bl31_entrypoint.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/bl31_entrypoint.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/runtime_exceptions.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/runtime_exceptions.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/runtime_exceptions.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/crash_reporting.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/crash_reporting.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/crash_reporting.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/platform_mp_stack.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/platform_mp_stack.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/platform_mp_stack.o
+ .text.platform_get_stack
+                0x0000000000000000       0x1c ./t186ref/tegra/t186/release/bl31/platform_mp_stack.o
+ .rodata.str1.1
+                0x0000000000000000       0x28 ./t186ref/tegra/t186/release/bl31/platform_mp_stack.o
+ .text.platform_set_stack
+                0x0000000000000000       0x1c ./t186ref/tegra/t186/release/bl31/platform_mp_stack.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/cpu_data.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/cpu_data.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/cpu_data.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/cpu_helpers.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/cpu_helpers.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/cpu_helpers.o
+ .text.cpu_rev_var_hs
+                0x0000000000000000       0x14 ./t186ref/tegra/t186/release/bl31/cpu_helpers.o
+ .text.wa_cve_2018_3639_get_disable_ptr
+                0x0000000000000000       0x24 ./t186ref/tegra/t186/release/bl31/cpu_helpers.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/spinlock.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/spinlock.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/spinlock.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_helpers.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_helpers.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_helpers.o
+ .text.psci_do_pwrup_cache_maintenance
+                0x0000000000000000       0x34 ./t186ref/tegra/t186/release/bl31/psci_helpers.o
+ .text.psci_entrypoint
+                0x0000000000000000        0x4 ./t186ref/tegra/t186/release/bl31/psci_helpers.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/context.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/context.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/context.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/wa_cve_2017_5715_mmu.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/wa_cve_2017_5715_mmu.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/wa_cve_2017_5715_mmu.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/trusty_helpers.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/trusty_helpers.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/trusty_helpers.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/debug.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/debug.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/debug.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/cache_helpers.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/cache_helpers.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/cache_helpers.o
+ .text.dcsw_op_louis
+                0x0000000000000000       0x14 ./t186ref/tegra/t186/release/bl31/cache_helpers.o
+ .text.dcsw_op_all
+                0x0000000000000000       0x14 ./t186ref/tegra/t186/release/bl31/cache_helpers.o
+ .text.dcsw_op_level3
+                0x0000000000000000       0x10 ./t186ref/tegra/t186/release/bl31/cache_helpers.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/misc_helpers.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/misc_helpers.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/misc_helpers.o
+ .text.get_afflvl_shift
+                0x0000000000000000       0x14 ./t186ref/tegra/t186/release/bl31/misc_helpers.o
+ .text.mpidr_mask_lower_afflvls
+                0x0000000000000000       0x1c ./t186ref/tegra/t186/release/bl31/misc_helpers.o
+ .text.eret     0x0000000000000000        0x4 ./t186ref/tegra/t186/release/bl31/misc_helpers.o
+ .text.smc      0x0000000000000000        0x4 ./t186ref/tegra/t186/release/bl31/misc_helpers.o
+ .text.disable_mmu_el3
+                0x0000000000000000       0x1c ./t186ref/tegra/t186/release/bl31/misc_helpers.o
+ .text.disable_mmu_icache_el3
+                0x0000000000000000        0x8 ./t186ref/tegra/t186/release/bl31/misc_helpers.o
+ .text          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/platform_helpers.o
+ .data          0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/platform_helpers.o
+ .bss           0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/platform_helpers.o
+ .text.platform_get_core_pos
+                0x0000000000000000       0x18 ./t186ref/tegra/t186/release/bl31/platform_helpers.o
+ .text.plat_report_exception
+                0x0000000000000000        0x4 ./t186ref/tegra/t186/release/bl31/platform_helpers.o
+ .text.plat_crash_console_init
+                0x0000000000000000        0x8 ./t186ref/tegra/t186/release/bl31/platform_helpers.o
+ .text.plat_crash_console_putc
+                0x0000000000000000        0x4 ./t186ref/tegra/t186/release/bl31/platform_helpers.o
+ .text.plat_reset_handler
+                0x0000000000000000        0x4 ./t186ref/tegra/t186/release/bl31/platform_helpers.o
+ .text.bl1_plat_prepare_exit
+                0x0000000000000000        0x4 ./t186ref/tegra/t186/release/bl31/platform_helpers.o
+ .text.plat_error_handler
+                0x0000000000000000        0x8 ./t186ref/tegra/t186/release/bl31/platform_helpers.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x0000000030000000 0x000000000003ffff xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000030000000                . = 0x30000000
+                0x0000000000000001                ASSERT ((. == ALIGN (0x1000)), BL31_BASE address is not aligned on a page boundary.)
+
+.text           0x0000000030000000     0xe000
+                0x0000000030000000                __TEXT_START__ = .
+ *bl31_entrypoint.o(.text*)
+ .text.bl31_entrypoint
+                0x0000000030000000       0xd8 ./t186ref/tegra/t186/release/bl31/bl31_entrypoint.o
+                0x0000000030000000                bl31_entrypoint
+ .text.bl31_warm_entrypoint
+                0x00000000300000d8       0x8c ./t186ref/tegra/t186/release/bl31/bl31_entrypoint.o
+                0x00000000300000d8                bl31_warm_entrypoint
+ *(.text*)
+ .text.udelay   0x0000000030000164       0xb4 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+                0x0000000030000164                udelay
+ .text.mdelay   0x0000000030000218        0xc ./t186ref/tegra/t186/release/bl31/delay_timer.o
+                0x0000000030000218                mdelay
+ .text.timer_init
+                0x0000000030000224       0x48 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+                0x0000000030000224                timer_init
+ .text.boot_profiler_init
+                0x000000003000026c       0x6c ./t186ref/tegra/t186/release/bl31/profiler.o
+                0x000000003000026c                boot_profiler_init
+ .text.boot_profiler_add_record
+                0x00000000300002d8       0xd4 ./t186ref/tegra/t186/release/bl31/profiler.o
+                0x00000000300002d8                boot_profiler_add_record
+ .text.boot_profiler_deinit
+                0x00000000300003ac       0x64 ./t186ref/tegra/t186/release/bl31/profiler.o
+                0x00000000300003ac                boot_profiler_deinit
+ .text.bl31_plat_enable_mmu
+                0x0000000030000410        0x4 ./t186ref/tegra/t186/release/bl31/tegra_bl31_setup.o
+                0x0000000030000410                bl31_plat_enable_mmu
+ .text.bl31_plat_get_next_image_ep_info
+                0x0000000030000414       0x38 ./t186ref/tegra/t186/release/bl31/tegra_bl31_setup.o
+                0x0000000030000414                bl31_plat_get_next_image_ep_info
+ .text.bl31_get_plat_params
+                0x000000003000044c        0xc ./t186ref/tegra/t186/release/bl31/tegra_bl31_setup.o
+                0x000000003000044c                bl31_get_plat_params
+ .text.bl31_platform_setup
+                0x0000000030000458       0x40 ./t186ref/tegra/t186/release/bl31/tegra_bl31_setup.o
+                0x0000000030000458                bl31_platform_setup
+ .text.bl31_plat_runtime_setup
+                0x0000000030000498       0x24 ./t186ref/tegra/t186/release/bl31/tegra_bl31_setup.o
+                0x0000000030000498                bl31_plat_runtime_setup
+ .text.bl31_plat_arch_setup
+                0x00000000300004bc       0xec ./t186ref/tegra/t186/release/bl31/tegra_bl31_setup.o
+                0x00000000300004bc                bl31_plat_arch_setup
+ .text.bl31_check_ns_address
+                0x00000000300005a8       0x98 ./t186ref/tegra/t186/release/bl31/tegra_bl31_setup.o
+                0x00000000300005a8                bl31_check_ns_address
+ .text.bl31_early_platform_setup
+                0x0000000030000640      0x188 ./t186ref/tegra/t186/release/bl31/tegra_bl31_setup.o
+                0x0000000030000640                bl31_early_platform_setup
+ .text.tegra_memcpy
+                0x00000000300007c8        0x4 ./t186ref/tegra/t186/release/bl31/tegra_common.o
+                0x00000000300007c8                tegra_memcpy
+ .text.tegra_zeromem
+                0x00000000300007cc        0x4 ./t186ref/tegra/t186/release/bl31/tegra_common.o
+                0x00000000300007cc                tegra_zeromem
+ .text.tegra_timer_get_value
+                0x00000000300007d0       0x14 ./t186ref/tegra/t186/release/bl31/tegra_delay_timer.o
+ .text.tegra_delay_timer_init
+                0x00000000300007e4       0x68 ./t186ref/tegra/t186/release/bl31/tegra_delay_timer.o
+                0x00000000300007e4                tegra_delay_timer_init
+ .text.tegra_fiq_interrupt_handler
+                0x000000003000084c       0x90 ./t186ref/tegra/t186/release/bl31/tegra_fiq_glue.o
+ .text.tegra_fiq_handler_setup
+                0x00000000300008dc       0x48 ./t186ref/tegra/t186/release/bl31/tegra_fiq_glue.o
+                0x00000000300008dc                tegra_fiq_handler_setup
+ .text.tegra_fiq_set_ns_entrypoint
+                0x0000000030000924        0xc ./t186ref/tegra/t186/release/bl31/tegra_fiq_glue.o
+                0x0000000030000924                tegra_fiq_set_ns_entrypoint
+ .text.tegra_fiq_get_intr_context
+                0x0000000030000930       0x5c ./t186ref/tegra/t186/release/bl31/tegra_fiq_glue.o
+                0x0000000030000930                tegra_fiq_get_intr_context
+ .text.tegra_get_chipid_major
+                0x000000003000098c       0x14 ./t186ref/tegra/t186/release/bl31/tegra_platform.o
+                0x000000003000098c                tegra_get_chipid_major
+ .text.tegra_get_chipid_minor
+                0x00000000300009a0       0x14 ./t186ref/tegra/t186/release/bl31/tegra_platform.o
+                0x00000000300009a0                tegra_get_chipid_minor
+ .text.tegra_get_platform
+                0x00000000300009b4       0x70 ./t186ref/tegra/t186/release/bl31/tegra_platform.o
+ .text.tegra_chipid_is_t186
+                0x0000000030000a24       0x1c ./t186ref/tegra/t186/release/bl31/tegra_platform.o
+                0x0000000030000a24                tegra_chipid_is_t186
+ .text.tegra_platform_is_silicon
+                0x0000000030000a40       0x1c ./t186ref/tegra/t186/release/bl31/tegra_platform.o
+                0x0000000030000a40                tegra_platform_is_silicon
+ .text.tegra_platform_is_linsim
+                0x0000000030000a5c       0x20 ./t186ref/tegra/t186/release/bl31/tegra_platform.o
+                0x0000000030000a5c                tegra_platform_is_linsim
+ .text.tegra_platform_is_fpga
+                0x0000000030000a7c       0x1c ./t186ref/tegra/t186/release/bl31/tegra_platform.o
+                0x0000000030000a7c                tegra_platform_is_fpga
+ .text.tegra_platform_is_virt_dev_kit
+                0x0000000030000a98       0x1c ./t186ref/tegra/t186/release/bl31/tegra_platform.o
+                0x0000000030000a98                tegra_platform_is_virt_dev_kit
+ .text.tegra_get_sys_suspend_power_state
+                0x0000000030000ab4       0x14 ./t186ref/tegra/t186/release/bl31/tegra_pm.o
+                0x0000000030000ab4                tegra_get_sys_suspend_power_state
+ .text.tegra_validate_ns_entrypoint
+                0x0000000030000ac8       0x1c ./t186ref/tegra/t186/release/bl31/tegra_pm.o
+                0x0000000030000ac8                tegra_validate_ns_entrypoint
+ .text.tegra_cpu_standby
+                0x0000000030000ae4       0x48 ./t186ref/tegra/t186/release/bl31/tegra_pm.o
+                0x0000000030000ae4                tegra_cpu_standby
+ .text.tegra_pwr_domain_on
+                0x0000000030000b2c        0x4 ./t186ref/tegra/t186/release/bl31/tegra_pm.o
+                0x0000000030000b2c                tegra_pwr_domain_on
+ .text.tegra_pwr_domain_off
+                0x0000000030000b30        0x4 ./t186ref/tegra/t186/release/bl31/tegra_pm.o
+                0x0000000030000b30                tegra_pwr_domain_off
+ .text.tegra_pwr_domain_suspend
+                0x0000000030000b34       0x30 ./t186ref/tegra/t186/release/bl31/tegra_pm.o
+                0x0000000030000b34                tegra_pwr_domain_suspend
+ .text.tegra_pwr_domain_power_down_wfi
+                0x0000000030000b64       0x14 ./t186ref/tegra/t186/release/bl31/tegra_pm.o
+                0x0000000030000b64                tegra_pwr_domain_power_down_wfi
+ .text.tegra_pwr_domain_on_finish
+                0x0000000030000b78       0x90 ./t186ref/tegra/t186/release/bl31/tegra_pm.o
+                0x0000000030000b78                tegra_pwr_domain_on_finish
+ .text.tegra_pwr_domain_suspend_finish
+                0x0000000030000c08        0x4 ./t186ref/tegra/t186/release/bl31/tegra_pm.o
+                0x0000000030000c08                tegra_pwr_domain_suspend_finish
+ .text.tegra_system_off
+                0x0000000030000c0c        0xc ./t186ref/tegra/t186/release/bl31/tegra_pm.o
+                0x0000000030000c0c                tegra_system_off
+ .text.tegra_system_reset
+                0x0000000030000c18       0x10 ./t186ref/tegra/t186/release/bl31/tegra_pm.o
+                0x0000000030000c18                tegra_system_reset
+ .text.tegra_validate_power_state
+                0x0000000030000c28       0x28 ./t186ref/tegra/t186/release/bl31/tegra_pm.o
+                0x0000000030000c28                tegra_validate_power_state
+ .text.plat_setup_psci_ops
+                0x0000000030000c50       0x54 ./t186ref/tegra/t186/release/bl31/tegra_pm.o
+                0x0000000030000c50                plat_setup_psci_ops
+ .text.plat_get_target_pwr_state
+                0x0000000030000ca4        0x4 ./t186ref/tegra/t186/release/bl31/tegra_pm.o
+                0x0000000030000ca4                plat_get_target_pwr_state
+ .text.tegra_sip_handler
+                0x0000000030000ca8      0x130 ./t186ref/tegra/t186/release/bl31/tegra_sip_calls.o
+                0x0000000030000ca8                tegra_sip_handler
+ .text.gicd_read_igroupr
+                0x0000000030000dd8       0x14 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+                0x0000000030000dd8                gicd_read_igroupr
+ .text.gicd_read_icfgr
+                0x0000000030000dec       0x14 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+                0x0000000030000dec                gicd_read_icfgr
+ .text.gicd_write_igroupr
+                0x0000000030000e00       0x14 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+                0x0000000030000e00                gicd_write_igroupr
+ .text.gicd_write_isenabler
+                0x0000000030000e14       0x14 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+                0x0000000030000e14                gicd_write_isenabler
+ .text.gicd_write_icenabler
+                0x0000000030000e28       0x14 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+                0x0000000030000e28                gicd_write_icenabler
+ .text.gicd_write_ipriorityr
+                0x0000000030000e3c       0x10 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+                0x0000000030000e3c                gicd_write_ipriorityr
+ .text.gicd_write_icfgr
+                0x0000000030000e4c       0x14 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+                0x0000000030000e4c                gicd_write_icfgr
+ .text.gicd_get_igroupr
+                0x0000000030000e60       0x20 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+                0x0000000030000e60                gicd_get_igroupr
+ .text.gicd_clr_igroupr
+                0x0000000030000e80       0x30 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+                0x0000000030000e80                gicd_clr_igroupr
+ .text.gicd_set_isenabler
+                0x0000000030000eb0        0xc ./t186ref/tegra/t186/release/bl31/gic_v2.o
+                0x0000000030000eb0                gicd_set_isenabler
+ .text.gicd_set_ipriorityr
+                0x0000000030000ebc       0x64 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+                0x0000000030000ebc                gicd_set_ipriorityr
+ .text.gicd_set_itargetsr
+                0x0000000030000f20       0x14 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+                0x0000000030000f20                gicd_set_itargetsr
+ .text.gicv2_interrupt_type_to_line
+                0x0000000030000f34       0x24 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+                0x0000000030000f34                gicv2_interrupt_type_to_line
+ .text.tegra_bpmp_ivc_notify
+                0x0000000030000f58       0x14 ./t186ref/tegra/t186/release/bl31/intf.o
+ .text.tegra_bpmp_ipc_send_req_atomic.constprop.0
+                0x0000000030000f6c      0x134 ./t186ref/tegra/t186/release/bl31/intf.o
+ .text.tegra_bpmp_ipc_init
+                0x00000000300010a0      0x128 ./t186ref/tegra/t186/release/bl31/intf.o
+                0x00000000300010a0                tegra_bpmp_ipc_init
+ .text.tegra_bpmp_ipc_enable_clock
+                0x00000000300011c8       0x74 ./t186ref/tegra/t186/release/bl31/intf.o
+                0x00000000300011c8                tegra_bpmp_ipc_enable_clock
+ .text.tegra_bpmp_ipc_disable_clock
+                0x000000003000123c       0x74 ./t186ref/tegra/t186/release/bl31/intf.o
+                0x000000003000123c                tegra_bpmp_ipc_disable_clock
+ .text.ivc_advance_tx
+                0x00000000300012b0       0x2c ./t186ref/tegra/t186/release/bl31/ivc.o
+ .text.ivc_advance_rx
+                0x00000000300012dc       0x2c ./t186ref/tegra/t186/release/bl31/ivc.o
+ .text.ivc_check_write
+                0x0000000030001308       0x50 ./t186ref/tegra/t186/release/bl31/ivc.o
+ .text.unlikely.ivc_frame_pointer.part.4
+                0x0000000030001358       0x20 ./t186ref/tegra/t186/release/bl31/ivc.o
+ .text.ivc_check_read
+                0x0000000030001378       0x6c ./t186ref/tegra/t186/release/bl31/ivc.o
+ .text.tegra_ivc_read_get_next_frame
+                0x00000000300013e4       0x4c ./t186ref/tegra/t186/release/bl31/ivc.o
+                0x00000000300013e4                tegra_ivc_read_get_next_frame
+ .text.tegra_ivc_read_advance
+                0x0000000030001430       0x64 ./t186ref/tegra/t186/release/bl31/ivc.o
+                0x0000000030001430                tegra_ivc_read_advance
+ .text.tegra_ivc_write_get_next_frame
+                0x0000000030001494       0x48 ./t186ref/tegra/t186/release/bl31/ivc.o
+                0x0000000030001494                tegra_ivc_write_get_next_frame
+ .text.tegra_ivc_write_advance
+                0x00000000300014dc       0x60 ./t186ref/tegra/t186/release/bl31/ivc.o
+                0x00000000300014dc                tegra_ivc_write_advance
+ .text.tegra_ivc_channel_reset
+                0x000000003000153c       0x14 ./t186ref/tegra/t186/release/bl31/ivc.o
+                0x000000003000153c                tegra_ivc_channel_reset
+ .text.tegra_ivc_channel_notified
+                0x0000000030001550       0xc0 ./t186ref/tegra/t186/release/bl31/ivc.o
+                0x0000000030001550                tegra_ivc_channel_notified
+ .text.tegra_ivc_align
+                0x0000000030001610        0xc ./t186ref/tegra/t186/release/bl31/ivc.o
+                0x0000000030001610                tegra_ivc_align
+ .text.tegra_ivc_total_queue_size
+                0x000000003000161c       0x38 ./t186ref/tegra/t186/release/bl31/ivc.o
+                0x000000003000161c                tegra_ivc_total_queue_size
+ .text.tegra_ivc_init
+                0x0000000030001654      0x100 ./t186ref/tegra/t186/release/bl31/ivc.o
+                0x0000000030001654                tegra_ivc_init
+ .text.tegra_gic_pcpu_distif_init.constprop.1
+                0x0000000030001754      0x110 ./t186ref/tegra/t186/release/bl31/gic.o
+ .text.tegra_gic_cpuif_deactivate
+                0x0000000030001864       0x1c ./t186ref/tegra/t186/release/bl31/gic.o
+                0x0000000030001864                tegra_gic_cpuif_deactivate
+ .text.tegra_gic_init
+                0x0000000030001880      0x184 ./t186ref/tegra/t186/release/bl31/gic.o
+                0x0000000030001880                tegra_gic_init
+ .text.tegra_gic_pcpu_init
+                0x0000000030001a04       0x2c ./t186ref/tegra/t186/release/bl31/gic.o
+                0x0000000030001a04                tegra_gic_pcpu_init
+ .text.tegra_gic_setup
+                0x0000000030001a30       0x64 ./t186ref/tegra/t186/release/bl31/gic.o
+                0x0000000030001a30                tegra_gic_setup
+ .text.plat_ic_get_pending_interrupt_id
+                0x0000000030001a94       0x3c ./t186ref/tegra/t186/release/bl31/gic.o
+                0x0000000030001a94                plat_ic_get_pending_interrupt_id
+ .text.plat_ic_get_pending_interrupt_type
+                0x0000000030001ad0       0x68 ./t186ref/tegra/t186/release/bl31/gic.o
+                0x0000000030001ad0                plat_ic_get_pending_interrupt_type
+ .text.plat_ic_acknowledge_interrupt
+                0x0000000030001b38       0x10 ./t186ref/tegra/t186/release/bl31/gic.o
+                0x0000000030001b38                plat_ic_acknowledge_interrupt
+ .text.plat_ic_end_of_interrupt
+                0x0000000030001b48       0x10 ./t186ref/tegra/t186/release/bl31/gic.o
+                0x0000000030001b48                plat_ic_end_of_interrupt
+ .text.plat_interrupt_type_to_line
+                0x0000000030001b58       0x54 ./t186ref/tegra/t186/release/bl31/gic.o
+                0x0000000030001b58                plat_interrupt_type_to_line
+ .text.tegra_gpcdma_memcpy_priv
+                0x0000000030001bac      0x194 ./t186ref/tegra/t186/release/bl31/gpcdma.o
+ .text.tegra_gpcdma_memcpy
+                0x0000000030001d40        0x8 ./t186ref/tegra/t186/release/bl31/gpcdma.o
+                0x0000000030001d40                tegra_gpcdma_memcpy
+ .text.tegra_gpcdma_zeromem
+                0x0000000030001d48       0x10 ./t186ref/tegra/t186/release/bl31/gpcdma.o
+                0x0000000030001d48                tegra_gpcdma_zeromem
+ .text.tegra_clear_videomem
+                0x0000000030001d58       0x60 ./t186ref/tegra/t186/release/bl31/memctrl_v2.o
+ .text.tegra_memctrl_setup
+                0x0000000030001db8       0xe8 ./t186ref/tegra/t186/release/bl31/memctrl_v2.o
+                0x0000000030001db8                tegra_memctrl_setup
+ .text.tegra_memctrl_restore_settings
+                0x0000000030001ea0       0x94 ./t186ref/tegra/t186/release/bl31/memctrl_v2.o
+                0x0000000030001ea0                tegra_memctrl_restore_settings
+ .text.tegra_memctrl_tzdram_setup
+                0x0000000030001f34        0x8 ./t186ref/tegra/t186/release/bl31/memctrl_v2.o
+                0x0000000030001f34                tegra_memctrl_tzdram_setup
+ .text.tegra_memctrl_tzram_setup
+                0x0000000030001f3c       0xdc ./t186ref/tegra/t186/release/bl31/memctrl_v2.o
+                0x0000000030001f3c                tegra_memctrl_tzram_setup
+ .text.tegra_memctrl_videomem_setup
+                0x0000000030002018      0x138 ./t186ref/tegra/t186/release/bl31/memctrl_v2.o
+                0x0000000030002018                tegra_memctrl_videomem_setup
+ .text.tegra_memctrl_disable_ahb_redirection
+                0x0000000030002150        0x4 ./t186ref/tegra/t186/release/bl31/memctrl_v2.o
+                0x0000000030002150                tegra_memctrl_disable_ahb_redirection
+ .text.tegra_memctrl_clear_pending_interrupts
+                0x0000000030002154        0x4 ./t186ref/tegra/t186/release/bl31/memctrl_v2.o
+                0x0000000030002154                tegra_memctrl_clear_pending_interrupts
+ .text.tegra_smmu_save_context
+                0x0000000030002158      0x134 ./t186ref/tegra/t186/release/bl31/smmu.o
+                0x0000000030002158                tegra_smmu_save_context
+ .text.tegra_smmu_init
+                0x000000003000228c       0xa0 ./t186ref/tegra/t186/release/bl31/smmu.o
+                0x000000003000228c                tegra_smmu_init
+ .text.mce_get_curr_cpu_ari_base
+                0x000000003000232c       0x30 ./t186ref/tegra/t186/release/bl31/mce.o
+ .text.mce_get_curr_cpu_ops
+                0x000000003000235c       0x30 ./t186ref/tegra/t186/release/bl31/mce.o
+ .text.mce_update_ccplex_gsc
+                0x000000003000238c       0x2c ./t186ref/tegra/t186/release/bl31/mce.o
+ .text.mce_command_handler
+                0x00000000300023b8      0x3e8 ./t186ref/tegra/t186/release/bl31/mce.o
+                0x00000000300023b8                mce_command_handler
+ .text.mce_update_reset_vector
+                0x00000000300027a0       0x24 ./t186ref/tegra/t186/release/bl31/mce.o
+                0x00000000300027a0                mce_update_reset_vector
+ .text.mce_update_gsc_videomem
+                0x00000000300027c4        0x8 ./t186ref/tegra/t186/release/bl31/mce.o
+                0x00000000300027c4                mce_update_gsc_videomem
+ .text.mce_update_gsc_tzdram
+                0x00000000300027cc        0x8 ./t186ref/tegra/t186/release/bl31/mce.o
+                0x00000000300027cc                mce_update_gsc_tzdram
+ .text.mce_update_gsc_tzram
+                0x00000000300027d4        0x8 ./t186ref/tegra/t186/release/bl31/mce.o
+                0x00000000300027d4                mce_update_gsc_tzram
+ .text.mce_enter_ccplex_state
+                0x00000000300027dc       0x30 ./t186ref/tegra/t186/release/bl31/mce.o
+                0x00000000300027dc                mce_enter_ccplex_state
+ .text.mce_update_cstate_info
+                0x000000003000280c       0x34 ./t186ref/tegra/t186/release/bl31/mce.o
+                0x000000003000280c                mce_update_cstate_info
+ .text.mce_verify_firmware_version
+                0x0000000030002840       0x70 ./t186ref/tegra/t186/release/bl31/mce.o
+                0x0000000030002840                mce_verify_firmware_version
+ .text.ari_clobber_response
+                0x00000000300028b0       0x10 ./t186ref/tegra/t186/release/bl31/ari.o
+ .text.ari_request_wait.constprop.1
+                0x00000000300028c0       0xa0 ./t186ref/tegra/t186/release/bl31/ari.o
+ .text.ari_enter_cstate
+                0x0000000030002960       0x68 ./t186ref/tegra/t186/release/bl31/ari.o
+                0x0000000030002960                ari_enter_cstate
+ .text.ari_update_cstate_info
+                0x00000000300029c8       0x70 ./t186ref/tegra/t186/release/bl31/ari.o
+                0x00000000300029c8                ari_update_cstate_info
+ .text.ari_update_crossover_time
+                0x0000000030002a38       0x3c ./t186ref/tegra/t186/release/bl31/ari.o
+                0x0000000030002a38                ari_update_crossover_time
+ .text.ari_read_cstate_stats
+                0x0000000030002a74       0x54 ./t186ref/tegra/t186/release/bl31/ari.o
+                0x0000000030002a74                ari_read_cstate_stats
+ .text.ari_write_cstate_stats
+                0x0000000030002ac8       0x28 ./t186ref/tegra/t186/release/bl31/ari.o
+                0x0000000030002ac8                ari_write_cstate_stats
+ .text.ari_enumeration_misc
+                0x0000000030002af0       0x54 ./t186ref/tegra/t186/release/bl31/ari.o
+                0x0000000030002af0                ari_enumeration_misc
+ .text.ari_is_ccx_allowed
+                0x0000000030002b44       0x60 ./t186ref/tegra/t186/release/bl31/ari.o
+                0x0000000030002b44                ari_is_ccx_allowed
+ .text.ari_is_sc7_allowed
+                0x0000000030002ba4       0x94 ./t186ref/tegra/t186/release/bl31/ari.o
+                0x0000000030002ba4                ari_is_sc7_allowed
+ .text.ari_online_core
+                0x0000000030002c38       0xa4 ./t186ref/tegra/t186/release/bl31/ari.o
+                0x0000000030002c38                ari_online_core
+ .text.ari_cc3_ctrl
+                0x0000000030002cdc       0x44 ./t186ref/tegra/t186/release/bl31/ari.o
+                0x0000000030002cdc                ari_cc3_ctrl
+ .text.ari_reset_vector_update
+                0x0000000030002d20       0x30 ./t186ref/tegra/t186/release/bl31/ari.o
+                0x0000000030002d20                ari_reset_vector_update
+ .text.ari_roc_flush_cache_trbits
+                0x0000000030002d50       0x28 ./t186ref/tegra/t186/release/bl31/ari.o
+                0x0000000030002d50                ari_roc_flush_cache_trbits
+ .text.ari_roc_flush_cache
+                0x0000000030002d78       0x28 ./t186ref/tegra/t186/release/bl31/ari.o
+                0x0000000030002d78                ari_roc_flush_cache
+ .text.ari_roc_clean_cache
+                0x0000000030002da0       0x28 ./t186ref/tegra/t186/release/bl31/ari.o
+                0x0000000030002da0                ari_roc_clean_cache
+ .text.ari_read_write_mca
+                0x0000000030002dc8       0x80 ./t186ref/tegra/t186/release/bl31/ari.o
+                0x0000000030002dc8                ari_read_write_mca
+ .text.ari_update_ccplex_gsc
+                0x0000000030002e48       0x40 ./t186ref/tegra/t186/release/bl31/ari.o
+                0x0000000030002e48                ari_update_ccplex_gsc
+ .text.ari_enter_ccplex_state
+                0x0000000030002e88       0x28 ./t186ref/tegra/t186/release/bl31/ari.o
+                0x0000000030002e88                ari_enter_ccplex_state
+ .text.ari_read_write_uncore_perfmon
+                0x0000000030002eb0       0x98 ./t186ref/tegra/t186/release/bl31/ari.o
+                0x0000000030002eb0                ari_read_write_uncore_perfmon
+ .text.ari_misc_ccplex
+                0x0000000030002f48       0x50 ./t186ref/tegra/t186/release/bl31/ari.o
+                0x0000000030002f48                ari_misc_ccplex
+ .text.nvg_enter_cstate
+                0x0000000030002f98       0x6c ./t186ref/tegra/t186/release/bl31/nvg.o
+                0x0000000030002f98                nvg_enter_cstate
+ .text.nvg_update_cstate_info
+                0x0000000030003004       0x68 ./t186ref/tegra/t186/release/bl31/nvg.o
+                0x0000000030003004                nvg_update_cstate_info
+ .text.nvg_update_crossover_time
+                0x000000003000306c       0x34 ./t186ref/tegra/t186/release/bl31/nvg.o
+                0x000000003000306c                nvg_update_crossover_time
+ .text.nvg_read_cstate_stats
+                0x00000000300030a0       0x28 ./t186ref/tegra/t186/release/bl31/nvg.o
+                0x00000000300030a0                nvg_read_cstate_stats
+ .text.nvg_write_cstate_stats
+                0x00000000300030c8       0x24 ./t186ref/tegra/t186/release/bl31/nvg.o
+                0x00000000300030c8                nvg_write_cstate_stats
+ .text.nvg_is_ccx_allowed
+                0x00000000300030ec        0x8 ./t186ref/tegra/t186/release/bl31/nvg.o
+                0x00000000300030ec                nvg_is_ccx_allowed
+ .text.nvg_is_sc7_allowed
+                0x00000000300030f4       0x5c ./t186ref/tegra/t186/release/bl31/nvg.o
+                0x00000000300030f4                nvg_is_sc7_allowed
+ .text.nvg_online_core
+                0x0000000030003150       0x88 ./t186ref/tegra/t186/release/bl31/nvg.o
+                0x0000000030003150                nvg_online_core
+ .text.nvg_cc3_ctrl
+                0x00000000300031d8       0x38 ./t186ref/tegra/t186/release/bl31/nvg.o
+                0x00000000300031d8                nvg_cc3_ctrl
+ .text.tegra_se_save_sha256_hash
+                0x0000000030003210      0x2d0 ./t186ref/tegra/t186/release/bl31/se.o
+                0x0000000030003210                tegra_se_save_sha256_hash
+ .text.tegra186_memctrl_reconfig_mss_clients
+                0x00000000300034e0      0x458 ./t186ref/tegra/t186/release/bl31/plat_memctrl.o
+ .text.tegra186_memctrl_set_overrides
+                0x0000000030003938       0xd0 ./t186ref/tegra/t186/release/bl31/plat_memctrl.o
+ .text.tegra_get_mc_settings
+                0x0000000030003a08        0xc ./t186ref/tegra/t186/release/bl31/plat_memctrl.o
+                0x0000000030003a08                tegra_get_mc_settings
+ .text.plat_memctrl_tzdram_setup
+                0x0000000030003a14       0xbc ./t186ref/tegra/t186/release/bl31/plat_memctrl.o
+                0x0000000030003a14                plat_memctrl_tzdram_setup
+ .text.tegra_soc_validate_power_state
+                0x0000000030003ad0       0x88 ./t186ref/tegra/t186/release/bl31/plat_psci_handlers.o
+                0x0000000030003ad0                tegra_soc_validate_power_state
+ .text.tegra_soc_cpu_standby
+                0x0000000030003b58        0x8 ./t186ref/tegra/t186/release/bl31/plat_psci_handlers.o
+                0x0000000030003b58                tegra_soc_cpu_standby
+ .text.tegra_soc_pwr_domain_suspend
+                0x0000000030003b60      0x13c ./t186ref/tegra/t186/release/bl31/plat_psci_handlers.o
+                0x0000000030003b60                tegra_soc_pwr_domain_suspend
+ .text.tegra_soc_get_target_pwr_state
+                0x0000000030003c9c      0x118 ./t186ref/tegra/t186/release/bl31/plat_psci_handlers.o
+                0x0000000030003c9c                tegra_soc_get_target_pwr_state
+ .text.tegra_soc_pwr_domain_on
+                0x0000000030003db4       0x58 ./t186ref/tegra/t186/release/bl31/plat_psci_handlers.o
+                0x0000000030003db4                tegra_soc_pwr_domain_on
+ .text.tegra_soc_pwr_domain_on_finish
+                0x0000000030003e0c       0xd4 ./t186ref/tegra/t186/release/bl31/plat_psci_handlers.o
+                0x0000000030003e0c                tegra_soc_pwr_domain_on_finish
+ .text.tegra_soc_pwr_domain_off
+                0x0000000030003ee0       0x3c ./t186ref/tegra/t186/release/bl31/plat_psci_handlers.o
+                0x0000000030003ee0                tegra_soc_pwr_domain_off
+ .text.tegra_soc_prepare_system_off
+                0x0000000030003f1c       0x10 ./t186ref/tegra/t186/release/bl31/plat_psci_handlers.o
+                0x0000000030003f1c                tegra_soc_prepare_system_off
+ .text.tegra_soc_prepare_system_reset
+                0x0000000030003f2c       0x10 ./t186ref/tegra/t186/release/bl31/plat_psci_handlers.o
+                0x0000000030003f2c                tegra_soc_prepare_system_reset
+ .text.tegra_soc_pwr_domain_power_down_wfi
+                0x0000000030003f3c       0xec ./t186ref/tegra/t186/release/bl31/plat_psci_handlers.o
+                0x0000000030003f3c                tegra_soc_pwr_domain_power_down_wfi
+ .text.plat_get_power_domain_tree_desc
+                0x0000000030004028        0xc ./t186ref/tegra/t186/release/bl31/plat_setup.o
+                0x0000000030004028                plat_get_power_domain_tree_desc
+ .text.plat_get_mmio_map
+                0x0000000030004034        0xc ./t186ref/tegra/t186/release/bl31/plat_setup.o
+                0x0000000030004034                plat_get_mmio_map
+ .text.plat_get_syscnt_freq2
+                0x0000000030004040        0xc ./t186ref/tegra/t186/release/bl31/plat_setup.o
+                0x0000000030004040                plat_get_syscnt_freq2
+ .text.plat_get_console_from_id
+                0x000000003000404c       0x20 ./t186ref/tegra/t186/release/bl31/plat_setup.o
+                0x000000003000404c                plat_get_console_from_id
+ .text.plat_early_platform_setup
+                0x000000003000406c       0x4c ./t186ref/tegra/t186/release/bl31/plat_setup.o
+                0x000000003000406c                plat_early_platform_setup
+ .text.plat_late_platform_setup
+                0x00000000300040b8        0x4 ./t186ref/tegra/t186/release/bl31/plat_setup.o
+                0x00000000300040b8                plat_late_platform_setup
+ .text.plat_gic_setup
+                0x00000000300040bc       0x38 ./t186ref/tegra/t186/release/bl31/plat_setup.o
+                0x00000000300040bc                plat_gic_setup
+ .text.plat_get_bl31_params
+                0x00000000300040f4       0x14 ./t186ref/tegra/t186/release/bl31/plat_setup.o
+                0x00000000300040f4                plat_get_bl31_params
+ .text.plat_get_bl31_plat_params
+                0x0000000030004108       0x14 ./t186ref/tegra/t186/release/bl31/plat_setup.o
+                0x0000000030004108                plat_get_bl31_plat_params
+ .text.plat_core_pos_by_mpidr
+                0x000000003000411c       0x34 ./t186ref/tegra/t186/release/bl31/plat_setup.o
+                0x000000003000411c                plat_core_pos_by_mpidr
+ .text.plat_relocate_bl32_image
+                0x0000000030004150       0xec ./t186ref/tegra/t186/release/bl31/plat_setup.o
+                0x0000000030004150                plat_relocate_bl32_image
+ .text.plat_supports_system_suspend
+                0x000000003000423c        0x8 ./t186ref/tegra/t186/release/bl31/plat_setup.o
+                0x000000003000423c                plat_supports_system_suspend
+ .text.plat_secondary_setup
+                0x0000000030004244       0x70 ./t186ref/tegra/t186/release/bl31/plat_secondary.o
+                0x0000000030004244                plat_secondary_setup
+ .text.plat_sip_handler
+                0x00000000300042b4       0xe8 ./t186ref/tegra/t186/release/bl31/plat_sip_calls.o
+                0x00000000300042b4                plat_sip_handler
+ .text.plat_get_smmu_ctx
+                0x000000003000439c       0x14 ./t186ref/tegra/t186/release/bl31/plat_smmu.o
+                0x000000003000439c                plat_get_smmu_ctx
+ .text.plat_get_num_smmu_devices
+                0x00000000300043b0        0x8 ./t186ref/tegra/t186/release/bl31/plat_smmu.o
+                0x00000000300043b0                plat_get_num_smmu_devices
+ .text.get_arm_std_svc_args
+                0x00000000300043b8       0x38 ./t186ref/tegra/t186/release/bl31/bl31_main.o
+                0x00000000300043b8                get_arm_std_svc_args
+ .text.bl31_prepare_next_image_entry
+                0x00000000300043f0       0xa0 ./t186ref/tegra/t186/release/bl31/bl31_main.o
+                0x00000000300043f0                bl31_prepare_next_image_entry
+ .text.bl31_main
+                0x0000000030004490       0x64 ./t186ref/tegra/t186/release/bl31/bl31_main.o
+                0x0000000030004490                bl31_main
+ .text.bl31_register_bl32_init
+                0x00000000300044f4        0xc ./t186ref/tegra/t186/release/bl31/bl31_main.o
+                0x00000000300044f4                bl31_register_bl32_init
+ .text.set_scr_el3_from_rm
+                0x0000000030004500       0x84 ./t186ref/tegra/t186/release/bl31/interrupt_mgmt.o
+ .text.get_scr_el3_from_routing_model
+                0x0000000030004584       0x58 ./t186ref/tegra/t186/release/bl31/interrupt_mgmt.o
+                0x0000000030004584                get_scr_el3_from_routing_model
+ .text.set_routing_model
+                0x00000000300045dc       0x98 ./t186ref/tegra/t186/release/bl31/interrupt_mgmt.o
+                0x00000000300045dc                set_routing_model
+ .text.register_interrupt_type_handler
+                0x0000000030004674       0x6c ./t186ref/tegra/t186/release/bl31/interrupt_mgmt.o
+                0x0000000030004674                register_interrupt_type_handler
+ .text.get_interrupt_type_handler
+                0x00000000300046e0       0x2c ./t186ref/tegra/t186/release/bl31/interrupt_mgmt.o
+                0x00000000300046e0                get_interrupt_type_handler
+ .text.cm_get_context
+                0x000000003000470c       0x34 ./t186ref/tegra/t186/release/bl31/bl31_context_mgmt.o
+                0x000000003000470c                cm_get_context
+ .text.cm_set_context
+                0x0000000030004740       0x34 ./t186ref/tegra/t186/release/bl31/bl31_context_mgmt.o
+                0x0000000030004740                cm_set_context
+ .text.cm_get_context_by_index
+                0x0000000030004774       0x44 ./t186ref/tegra/t186/release/bl31/bl31_context_mgmt.o
+                0x0000000030004774                cm_get_context_by_index
+ .text.cm_set_context_by_index
+                0x00000000300047b8       0x48 ./t186ref/tegra/t186/release/bl31/bl31_context_mgmt.o
+                0x00000000300047b8                cm_set_context_by_index
+ .text.runtime_svc_init
+                0x0000000030004800      0x164 ./t186ref/tegra/t186/release/bl31/runtime_svc.o
+                0x0000000030004800                runtime_svc_init
+ .text.arm_arch_svc_smc_handler
+                0x0000000030004964       0xc8 ./t186ref/tegra/t186/release/bl31/arm_arch_svc_setup.o
+ .text.std_svc_smc_handler
+                0x0000000030004a2c       0x98 ./t186ref/tegra/t186/release/bl31/std_svc_setup.o
+                0x0000000030004a2c                std_svc_smc_handler
+ .text.std_svc_setup
+                0x0000000030004ac4       0x34 ./t186ref/tegra/t186/release/bl31/std_svc_setup.o
+ .text.cm_init_context_common
+                0x0000000030004af8      0x120 ./t186ref/tegra/t186/release/bl31/context_mgmt.o
+ .text.cm_set_next_context
+                0x0000000030004c18       0x38 ./t186ref/tegra/t186/release/bl31/context_mgmt.o
+ .text.cm_init  0x0000000030004c50        0x4 ./t186ref/tegra/t186/release/bl31/context_mgmt.o
+                0x0000000030004c50                cm_init
+ .text.cm_init_context_by_index
+                0x0000000030004c54       0x2c ./t186ref/tegra/t186/release/bl31/context_mgmt.o
+                0x0000000030004c54                cm_init_context_by_index
+ .text.cm_init_my_context
+                0x0000000030004c80       0x2c ./t186ref/tegra/t186/release/bl31/context_mgmt.o
+                0x0000000030004c80                cm_init_my_context
+ .text.cm_prepare_el3_exit
+                0x0000000030004cac       0xe0 ./t186ref/tegra/t186/release/bl31/context_mgmt.o
+                0x0000000030004cac                cm_prepare_el3_exit
+ .text.cm_el1_sysregs_context_save
+                0x0000000030004d8c       0x34 ./t186ref/tegra/t186/release/bl31/context_mgmt.o
+                0x0000000030004d8c                cm_el1_sysregs_context_save
+ .text.cm_el1_sysregs_context_restore
+                0x0000000030004dc0       0x34 ./t186ref/tegra/t186/release/bl31/context_mgmt.o
+                0x0000000030004dc0                cm_el1_sysregs_context_restore
+ .text.cm_set_elr_el3
+                0x0000000030004df4       0x40 ./t186ref/tegra/t186/release/bl31/context_mgmt.o
+                0x0000000030004df4                cm_set_elr_el3
+ .text.cm_set_elr_spsr_el3
+                0x0000000030004e34       0x44 ./t186ref/tegra/t186/release/bl31/context_mgmt.o
+                0x0000000030004e34                cm_set_elr_spsr_el3
+ .text.cm_write_scr_el3_bit
+                0x0000000030004e78       0x90 ./t186ref/tegra/t186/release/bl31/context_mgmt.o
+                0x0000000030004e78                cm_write_scr_el3_bit
+ .text.cm_set_next_eret_context
+                0x0000000030004f08       0x30 ./t186ref/tegra/t186/release/bl31/context_mgmt.o
+                0x0000000030004f08                cm_set_next_eret_context
+ .text.psci_do_cpu_off
+                0x0000000030004f38      0x134 ./t186ref/tegra/t186/release/bl31/psci_off.o
+                0x0000000030004f38                psci_do_cpu_off
+ .text.psci_cpu_on_start
+                0x000000003000506c      0x21c ./t186ref/tegra/t186/release/bl31/psci_on.o
+                0x000000003000506c                psci_cpu_on_start
+ .text.psci_cpu_on_finish
+                0x0000000030005288       0xc8 ./t186ref/tegra/t186/release/bl31/psci_on.o
+                0x0000000030005288                psci_cpu_on_finish
+ .text.psci_cpu_suspend_start
+                0x0000000030005350      0x198 ./t186ref/tegra/t186/release/bl31/psci_suspend.o
+                0x0000000030005350                psci_cpu_suspend_start
+ .text.psci_cpu_suspend_finish
+                0x00000000300054e8       0xd0 ./t186ref/tegra/t186/release/bl31/psci_suspend.o
+                0x00000000300054e8                psci_cpu_suspend_finish
+ .text.psci_validate_power_state
+                0x00000000300055b8       0x4c ./t186ref/tegra/t186/release/bl31/psci_common.o
+                0x00000000300055b8                psci_validate_power_state
+ .text.psci_query_sys_suspend_pwrstate
+                0x0000000030005604       0x38 ./t186ref/tegra/t186/release/bl31/psci_common.o
+                0x0000000030005604                psci_query_sys_suspend_pwrstate
+ .text.psci_is_last_on_cpu
+                0x000000003000563c       0x7c ./t186ref/tegra/t186/release/bl31/psci_common.o
+                0x000000003000563c                psci_is_last_on_cpu
+ .text.psci_init_req_local_pwr_states
+                0x00000000300056b8       0x14 ./t186ref/tegra/t186/release/bl31/psci_common.o
+                0x00000000300056b8                psci_init_req_local_pwr_states
+ .text.psci_get_target_local_pwr_states
+                0x00000000300056cc       0xb4 ./t186ref/tegra/t186/release/bl31/psci_common.o
+                0x00000000300056cc                psci_get_target_local_pwr_states
+ .text.psci_get_parent_pwr_domain_nodes
+                0x0000000030005780       0x48 ./t186ref/tegra/t186/release/bl31/psci_common.o
+                0x0000000030005780                psci_get_parent_pwr_domain_nodes
+ .text.psci_set_pwr_domains_to_run
+                0x00000000300057c8       0xa0 ./t186ref/tegra/t186/release/bl31/psci_common.o
+                0x00000000300057c8                psci_set_pwr_domains_to_run
+ .text.psci_do_state_coordination
+                0x0000000030005868      0x19c ./t186ref/tegra/t186/release/bl31/psci_common.o
+                0x0000000030005868                psci_do_state_coordination
+ .text.psci_find_max_off_lvl
+                0x0000000030005a04       0x58 ./t186ref/tegra/t186/release/bl31/psci_common.o
+                0x0000000030005a04                psci_find_max_off_lvl
+ .text.psci_find_target_suspend_lvl
+                0x0000000030005a5c       0x34 ./t186ref/tegra/t186/release/bl31/psci_common.o
+                0x0000000030005a5c                psci_find_target_suspend_lvl
+ .text.psci_validate_suspend_req
+                0x0000000030005a90       0xa8 ./t186ref/tegra/t186/release/bl31/psci_common.o
+                0x0000000030005a90                psci_validate_suspend_req
+ .text.psci_acquire_pwr_domain_locks
+                0x0000000030005b38       0x7c ./t186ref/tegra/t186/release/bl31/psci_common.o
+                0x0000000030005b38                psci_acquire_pwr_domain_locks
+ .text.psci_release_pwr_domain_locks
+                0x0000000030005bb4       0x6c ./t186ref/tegra/t186/release/bl31/psci_common.o
+                0x0000000030005bb4                psci_release_pwr_domain_locks
+ .text.psci_validate_mpidr
+                0x0000000030005c20       0x20 ./t186ref/tegra/t186/release/bl31/psci_common.o
+                0x0000000030005c20                psci_validate_mpidr
+ .text.psci_validate_entry_point
+                0x0000000030005c40       0xfc ./t186ref/tegra/t186/release/bl31/psci_common.o
+                0x0000000030005c40                psci_validate_entry_point
+ .text.psci_warmboot_entrypoint
+                0x0000000030005d3c       0xb8 ./t186ref/tegra/t186/release/bl31/psci_common.o
+                0x0000000030005d3c                psci_warmboot_entrypoint
+ .text.psci_register_spd_pm_hook
+                0x0000000030005df4       0x6c ./t186ref/tegra/t186/release/bl31/psci_common.o
+                0x0000000030005df4                psci_register_spd_pm_hook
+ .text.psci_spd_migrate_info
+                0x0000000030005e60       0x58 ./t186ref/tegra/t186/release/bl31/psci_common.o
+                0x0000000030005e60                psci_spd_migrate_info
+ .text.psci_print_power_domain_map
+                0x0000000030005eb8        0x4 ./t186ref/tegra/t186/release/bl31/psci_common.o
+                0x0000000030005eb8                psci_print_power_domain_map
+ .text.psci_do_pwrdown_sequence
+                0x0000000030005ebc        0x4 ./t186ref/tegra/t186/release/bl31/psci_common.o
+                0x0000000030005ebc                psci_do_pwrdown_sequence
+ .text.psci_cpu_on
+                0x0000000030005ec0       0x60 ./t186ref/tegra/t186/release/bl31/psci_main.o
+                0x0000000030005ec0                psci_cpu_on
+ .text.psci_cpu_suspend
+                0x0000000030005f20      0x13c ./t186ref/tegra/t186/release/bl31/psci_main.o
+                0x0000000030005f20                psci_cpu_suspend
+ .text.psci_system_suspend
+                0x000000003000605c       0xec ./t186ref/tegra/t186/release/bl31/psci_main.o
+                0x000000003000605c                psci_system_suspend
+ .text.psci_cpu_off
+                0x0000000030006148       0x38 ./t186ref/tegra/t186/release/bl31/psci_main.o
+                0x0000000030006148                psci_cpu_off
+ .text.psci_affinity_info
+                0x0000000030006180       0x38 ./t186ref/tegra/t186/release/bl31/psci_main.o
+                0x0000000030006180                psci_affinity_info
+ .text.psci_migrate
+                0x00000000300061b8       0xb8 ./t186ref/tegra/t186/release/bl31/psci_main.o
+                0x00000000300061b8                psci_migrate
+ .text.psci_migrate_info_type
+                0x0000000030006270       0x18 ./t186ref/tegra/t186/release/bl31/psci_main.o
+                0x0000000030006270                psci_migrate_info_type
+ .text.psci_migrate_info_up_cpu
+                0x0000000030006288       0x28 ./t186ref/tegra/t186/release/bl31/psci_main.o
+                0x0000000030006288                psci_migrate_info_up_cpu
+ .text.psci_node_hw_state
+                0x00000000300062b0       0x90 ./t186ref/tegra/t186/release/bl31/psci_main.o
+                0x00000000300062b0                psci_node_hw_state
+ .text.psci_features
+                0x0000000030006340       0x84 ./t186ref/tegra/t186/release/bl31/psci_main.o
+                0x0000000030006340                psci_features
+ .text.psci_smc_handler
+                0x00000000300063c4      0x13c ./t186ref/tegra/t186/release/bl31/psci_main.o
+                0x00000000300063c4                psci_smc_handler
+ .text.psci_arch_setup
+                0x0000000030006500       0x1c ./t186ref/tegra/t186/release/bl31/psci_setup.o
+                0x0000000030006500                psci_arch_setup
+ .text.psci_setup
+                0x000000003000651c      0x398 ./t186ref/tegra/t186/release/bl31/psci_setup.o
+                0x000000003000651c                psci_setup
+ .text.psci_system_off
+                0x00000000300068b4       0x70 ./t186ref/tegra/t186/release/bl31/psci_system_off.o
+                0x00000000300068b4                psci_system_off
+ .text.psci_system_reset
+                0x0000000030006924       0x70 ./t186ref/tegra/t186/release/bl31/psci_system_off.o
+                0x0000000030006924                psci_system_reset
+ .text.bakery_lock_get
+                0x0000000030006994      0x18c ./t186ref/tegra/t186/release/bl31/bakery_lock_normal.o
+                0x0000000030006994                bakery_lock_get
+ .text.bakery_lock_release
+                0x0000000030006b20       0x88 ./t186ref/tegra/t186/release/bl31/bakery_lock_normal.o
+                0x0000000030006b20                bakery_lock_release
+ .text.trusty_context_switch
+                0x0000000030006ba8      0x148 ./t186ref/tegra/t186/release/bl31/trusty.o
+ .text.trusty_fiq_handler
+                0x0000000030006cf0       0xe4 ./t186ref/tegra/t186/release/bl31/trusty.o
+ .text.trusty_cpu_resume
+                0x0000000030006dd4       0x30 ./t186ref/tegra/t186/release/bl31/trusty.o
+ .text.trusty_cpu_suspend_finish_handler
+                0x0000000030006e04        0x4 ./t186ref/tegra/t186/release/bl31/trusty.o
+ .text.trusty_cpu_suspend
+                0x0000000030006e08       0x30 ./t186ref/tegra/t186/release/bl31/trusty.o
+ .text.trusty_cpu_suspend_handler
+                0x0000000030006e38        0x4 ./t186ref/tegra/t186/release/bl31/trusty.o
+ .text.trusty_cpu_off_handler
+                0x0000000030006e3c       0x18 ./t186ref/tegra/t186/release/bl31/trusty.o
+ .text.trusty_setup
+                0x0000000030006e54       0x90 ./t186ref/tegra/t186/release/bl31/trusty.o
+ .text.trusty_init
+                0x0000000030006ee4      0x138 ./t186ref/tegra/t186/release/bl31/trusty.o
+ .text.trusty_cpu_on_finish_handler
+                0x000000003000701c       0x4c ./t186ref/tegra/t186/release/bl31/trusty.o
+ .text.trusty_smc_handler
+                0x0000000030007068      0x244 ./t186ref/tegra/t186/release/bl31/trusty.o
+ .text.print_entry_point_info
+                0x00000000300072ac        0x4 ./t186ref/tegra/t186/release/bl31/bl_common.o
+                0x00000000300072ac                print_entry_point_info
+ .text.unsigned_num_print
+                0x00000000300072b0       0x74 ./t186ref/tegra/t186/release/bl31/tf_printf.o
+ .text.tf_printf
+                0x0000000030007324      0x328 ./t186ref/tegra/t186/release/bl31/tf_printf.o
+                0x0000000030007324                tf_printf
+ .text.__assert
+                0x000000003000764c       0x28 ./t186ref/tegra/t186/release/bl31/assert.o
+                0x000000003000764c                __assert
+ .text.memset   0x0000000030007674       0x1c ./t186ref/tegra/t186/release/bl31/mem.o
+                0x0000000030007674                memset
+ .text.memcpy   0x0000000030007690       0x20 ./t186ref/tegra/t186/release/bl31/mem.o
+                0x0000000030007690                memcpy
+ .text.memmove  0x00000000300076b0       0x48 ./t186ref/tegra/t186/release/bl31/mem.o
+                0x00000000300076b0                memmove
+ .text.putchar  0x00000000300076f8       0x28 ./t186ref/tegra/t186/release/bl31/putchar.o
+                0x00000000300076f8                putchar
+ .text.strlen   0x0000000030007720       0x1c ./t186ref/tegra/t186/release/bl31/strlen.o
+                0x0000000030007720                strlen
+ .text.is_mmu_enabled
+                0x000000003000773c       0x3c ./t186ref/tegra/t186/release/bl31/xlat_tables_arch.o
+                0x000000003000773c                is_mmu_enabled
+ .text.xlat_arch_tlbi_va
+                0x0000000030007778       0x48 ./t186ref/tegra/t186/release/bl31/xlat_tables_arch.o
+                0x0000000030007778                xlat_arch_tlbi_va
+ .text.xlat_arch_tlbi_va_sync
+                0x00000000300077c0        0xc ./t186ref/tegra/t186/release/bl31/xlat_tables_arch.o
+                0x00000000300077c0                xlat_arch_tlbi_va_sync
+ .text.xlat_arch_current_el
+                0x00000000300077cc       0x30 ./t186ref/tegra/t186/release/bl31/xlat_tables_arch.o
+                0x00000000300077cc                xlat_arch_current_el
+ .text.xlat_arch_get_xn_desc
+                0x00000000300077fc       0x40 ./t186ref/tegra/t186/release/bl31/xlat_tables_arch.o
+                0x00000000300077fc                xlat_arch_get_xn_desc
+ .text.init_xlat_tables_arch
+                0x000000003000783c       0x74 ./t186ref/tegra/t186/release/bl31/xlat_tables_arch.o
+                0x000000003000783c                init_xlat_tables_arch
+ .text.enable_mmu_arch
+                0x00000000300078b0       0xe4 ./t186ref/tegra/t186/release/bl31/xlat_tables_arch.o
+                0x00000000300078b0                enable_mmu_arch
+ .text.mmap_add_region
+                0x0000000030007994       0x2c ./t186ref/tegra/t186/release/bl31/xlat_tables_common.o
+                0x0000000030007994                mmap_add_region
+ .text.mmap_add
+                0x00000000300079c0       0x40 ./t186ref/tegra/t186/release/bl31/xlat_tables_common.o
+                0x00000000300079c0                mmap_add
+ .text.mmap_add_dynamic_region
+                0x0000000030007a00       0x2c ./t186ref/tegra/t186/release/bl31/xlat_tables_common.o
+                0x0000000030007a00                mmap_add_dynamic_region
+ .text.mmap_remove_dynamic_region
+                0x0000000030007a2c       0x14 ./t186ref/tegra/t186/release/bl31/xlat_tables_common.o
+                0x0000000030007a2c                mmap_remove_dynamic_region
+ .text.init_xlat_tables
+                0x0000000030007a40       0xbc ./t186ref/tegra/t186/release/bl31/xlat_tables_common.o
+                0x0000000030007a40                init_xlat_tables
+ .text.enable_mmu_el1
+                0x0000000030007afc        0xc ./t186ref/tegra/t186/release/bl31/xlat_tables_common.o
+                0x0000000030007afc                enable_mmu_el1
+ .text.enable_mmu_el3
+                0x0000000030007b08        0x4 ./t186ref/tegra/t186/release/bl31/xlat_tables_common.o
+                0x0000000030007b08                enable_mmu_el3
+ .text.mmap_add_region_check
+                0x0000000030007b0c      0x144 ./t186ref/tegra/t186/release/bl31/xlat_tables_internal.o
+ .text.xlat_table_get_index
+                0x0000000030007c50       0x54 ./t186ref/tegra/t186/release/bl31/xlat_tables_internal.o
+ .text.xlat_tables_map_region
+                0x0000000030007ca4      0x34c ./t186ref/tegra/t186/release/bl31/xlat_tables_internal.o
+ .text.xlat_tables_unmap_region
+                0x0000000030007ff0      0x228 ./t186ref/tegra/t186/release/bl31/xlat_tables_internal.o
+ .text.print_mmap
+                0x0000000030008218        0x4 ./t186ref/tegra/t186/release/bl31/xlat_tables_internal.o
+                0x0000000030008218                print_mmap
+ .text.mmap_add_region_ctx
+                0x000000003000821c      0x1ac ./t186ref/tegra/t186/release/bl31/xlat_tables_internal.o
+                0x000000003000821c                mmap_add_region_ctx
+ .text.mmap_add_dynamic_region_ctx
+                0x00000000300083c8      0x224 ./t186ref/tegra/t186/release/bl31/xlat_tables_internal.o
+                0x00000000300083c8                mmap_add_dynamic_region_ctx
+ .text.mmap_remove_dynamic_region_ctx
+                0x00000000300085ec      0x16c ./t186ref/tegra/t186/release/bl31/xlat_tables_internal.o
+                0x00000000300085ec                mmap_remove_dynamic_region_ctx
+ .text.xlat_tables_print
+                0x0000000030008758        0x4 ./t186ref/tegra/t186/release/bl31/xlat_tables_internal.o
+                0x0000000030008758                xlat_tables_print
+ .text.init_xlation_table
+                0x000000003000875c       0xe0 ./t186ref/tegra/t186/release/bl31/xlat_tables_internal.o
+                0x000000003000875c                init_xlation_table
+ .text.console_init
+                0x000000003000883c       0x14 ./t186ref/tegra/t186/release/bl31/console.o
+                0x000000003000883c                console_init
+ .text.console_uninit
+                0x0000000030008850       0x10 ./t186ref/tegra/t186/release/bl31/console.o
+                0x0000000030008850                console_uninit
+ .text.console_putc
+                0x0000000030008860        0xc ./t186ref/tegra/t186/release/bl31/console.o
+                0x0000000030008860                console_putc
+ .text.console_flush
+                0x000000003000886c        0xc ./t186ref/tegra/t186/release/bl31/console.o
+                0x000000003000886c                console_flush
+ .text.tegra_set_sec_entry_point
+                0x0000000030008878       0x10 ./t186ref/tegra/t186/release/bl31/tegra_globals.o
+                0x0000000030008878                tegra_set_sec_entry_point
+ .text.tegra_get_console_base
+                0x0000000030008888        0xc ./t186ref/tegra/t186/release/bl31/tegra_globals.o
+                0x0000000030008888                tegra_get_console_base
+ .text.tegra_set_console_base
+                0x0000000030008894       0x10 ./t186ref/tegra/t186/release/bl31/tegra_globals.o
+                0x0000000030008894                tegra_set_console_base
+ .text.tegra_get_bl31_phys_base
+                0x00000000300088a4        0xc ./t186ref/tegra/t186/release/bl31/tegra_globals.o
+                0x00000000300088a4                tegra_get_bl31_phys_base
+ .text.tegra_get_bl31_text_start
+                0x00000000300088b0        0x8 ./t186ref/tegra/t186/release/bl31/tegra_globals.o
+                0x00000000300088b0                tegra_get_bl31_text_start
+ .text.tegra_get_bl31_text_end
+                0x00000000300088b8        0x8 ./t186ref/tegra/t186/release/bl31/tegra_globals.o
+                0x00000000300088b8                tegra_get_bl31_text_end
+ .text.tegra_get_bl31_rw_start
+                0x00000000300088c0        0x8 ./t186ref/tegra/t186/release/bl31/tegra_globals.o
+                0x00000000300088c0                tegra_get_bl31_rw_start
+ .text.tegra_get_bl31_rw_end
+                0x00000000300088c8        0x8 ./t186ref/tegra/t186/release/bl31/tegra_globals.o
+                0x00000000300088c8                tegra_get_bl31_rw_end
+ .text.tegra_get_bl31_rodata_start
+                0x00000000300088d0        0x8 ./t186ref/tegra/t186/release/bl31/tegra_globals.o
+                0x00000000300088d0                tegra_get_bl31_rodata_start
+ .text.tegra_get_bl31_rodata_end
+                0x00000000300088d8        0x8 ./t186ref/tegra/t186/release/bl31/tegra_globals.o
+                0x00000000300088d8                tegra_get_bl31_rodata_end
+ .text.plat_my_core_pos
+                0x00000000300088e0       0x10 ./t186ref/tegra/t186/release/bl31/tegra_helpers.o
+                0x00000000300088e0                plat_my_core_pos
+ .text.plat_get_my_entrypoint
+                0x00000000300088f0        0xc ./t186ref/tegra/t186/release/bl31/tegra_helpers.o
+                0x00000000300088f0                plat_get_my_entrypoint
+ .text.platform_mem_init
+                0x00000000300088fc        0x8 ./t186ref/tegra/t186/release/bl31/tegra_helpers.o
+                0x00000000300088fc                platform_mem_init
+ .text.plat_crash_console_init
+                0x0000000030008904       0x18 ./t186ref/tegra/t186/release/bl31/tegra_helpers.o
+                0x0000000030008904                plat_crash_console_init
+ .text.plat_crash_console_putc
+                0x000000003000891c        0xc ./t186ref/tegra/t186/release/bl31/tegra_helpers.o
+                0x000000003000891c                plat_crash_console_putc
+ *fill*         0x0000000030008928       0x18 
+ .text.plat_reset_handler
+                0x0000000030008940      0x140 ./t186ref/tegra/t186/release/bl31/tegra_helpers.o
+                0x0000000030008940                plat_reset_handler
+ .text.tegra_secure_entrypoint
+                0x0000000030008a80       0x10 ./t186ref/tegra/t186/release/bl31/tegra_helpers.o
+                0x0000000030008a80                tegra_secure_entrypoint
+ .text.tegra_zeromem16
+                0x0000000030008a90        0xc ./t186ref/tegra/t186/release/bl31/tegra_helpers.o
+                0x0000000030008a90                tegra_zeromem16
+ .text.tegra_memcpy16
+                0x0000000030008a9c        0xc ./t186ref/tegra/t186/release/bl31/tegra_helpers.o
+                0x0000000030008a9c                tegra_memcpy16
+ .text.console_core_init
+                0x0000000030008aa8       0x68 ./t186ref/tegra/t186/release/bl31/16550_console.o
+                0x0000000030008aa8                console_core_init
+ .text.console_core_putc
+                0x0000000030008b10       0x44 ./t186ref/tegra/t186/release/bl31/16550_console.o
+                0x0000000030008b10                console_core_putc
+ .text.console_core_flush
+                0x0000000030008b54        0x8 ./t186ref/tegra/t186/release/bl31/16550_console.o
+                0x0000000030008b54                console_core_flush
+ .text.denver_disable_ext_debug
+                0x0000000030008b5c       0x14 ./t186ref/tegra/t186/release/bl31/denver.o
+ .text.denver_enable_dco
+                0x0000000030008b70       0x1c ./t186ref/tegra/t186/release/bl31/denver.o
+ .text.denver_disable_dco
+                0x0000000030008b8c       0x38 ./t186ref/tegra/t186/release/bl31/denver.o
+                0x0000000030008b8c                denver_disable_dco
+ .text.check_errata_cve_2017_5715
+                0x0000000030008bc4       0x1c ./t186ref/tegra/t186/release/bl31/denver.o
+ .text.denver_reset_func
+                0x0000000030008be0       0x6c ./t186ref/tegra/t186/release/bl31/denver.o
+ .text.denver_core_pwr_dwn
+                0x0000000030008c4c        0xc ./t186ref/tegra/t186/release/bl31/denver.o
+ .text.denver_cluster_pwr_dwn
+                0x0000000030008c58        0x4 ./t186ref/tegra/t186/release/bl31/denver.o
+ .text.denver_cpu_reg_dump
+                0x0000000030008c5c        0xc ./t186ref/tegra/t186/release/bl31/denver.o
+ .text.cortex_a57_disable_dcache
+                0x0000000030008c68       0x14 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.cortex_a57_disable_l2_prefetch
+                0x0000000030008c7c       0x24 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.cortex_a57_disable_smp
+                0x0000000030008ca0       0x10 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.cortex_a57_disable_ext_debug
+                0x0000000030008cb0       0x14 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.errata_a57_806969_wa
+                0x0000000030008cc4       0x1c ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.check_errata_806969
+                0x0000000030008ce0        0x8 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.errata_a57_813420_wa
+                0x0000000030008ce8       0x1c ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.check_errata_813420
+                0x0000000030008d04        0x8 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.a57_disable_ldnp_overread
+                0x0000000030008d0c       0x1c ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.check_errata_disable_ldnp_overread
+                0x0000000030008d28        0x8 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.errata_a57_826974_wa
+                0x0000000030008d30       0x1c ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.check_errata_826974
+                0x0000000030008d4c        0x8 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.errata_a57_826977_wa
+                0x0000000030008d54       0x1c ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.check_errata_826977
+                0x0000000030008d70        0x8 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.errata_a57_828024_wa
+                0x0000000030008d78       0x20 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.check_errata_828024
+                0x0000000030008d98        0x8 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.errata_a57_829520_wa
+                0x0000000030008da0       0x1c ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.check_errata_829520
+                0x0000000030008dbc        0x8 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.errata_a57_833471_wa
+                0x0000000030008dc4       0x1c ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.check_errata_833471
+                0x0000000030008de0        0x8 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.errata_a57_859972_wa
+                0x0000000030008de8       0x1c ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.check_errata_859972
+                0x0000000030008e04        0x8 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.check_errata_cve_2017_5715
+                0x0000000030008e0c        0x8 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.cortex_a57_reset_func
+                0x0000000030008e14       0x90 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.cortex_a57_core_pwr_dwn
+                0x0000000030008ea4       0x20 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.cortex_a57_cluster_pwr_dwn
+                0x0000000030008ec4       0x2c ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.cortex_a57_cpu_reg_dump
+                0x0000000030008ef0       0x14 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .text.nvg_set_request_data
+                0x0000000030008f04        0xc ./t186ref/tegra/t186/release/bl31/nvg_helpers.o
+                0x0000000030008f04                nvg_set_request_data
+ .text.nvg_set_request
+                0x0000000030008f10        0x8 ./t186ref/tegra/t186/release/bl31/nvg_helpers.o
+                0x0000000030008f10                nvg_set_request
+ .text.nvg_get_result
+                0x0000000030008f18        0x8 ./t186ref/tegra/t186/release/bl31/nvg_helpers.o
+                0x0000000030008f18                nvg_get_result
+ .text.tegra186_cpu_reset_handler
+                0x0000000030008f20     0x21a0 ./t186ref/tegra/t186/release/bl31/plat_trampoline.o
+                0x0000000030008f20                tegra186_cpu_reset_handler
+                0x0000000030008fa0                __tegra186_cpu_reset_handler_data
+                0x0000000030008fb0                __tegra186_system_suspend_state
+                0x0000000030008fc0                __tegra186_smmu_context
+                0x000000003000b0c0                __tegra186_cpu_reset_handler_end
+ .text.tegra186_get_cpu_reset_handler_size
+                0x000000003000b0c0       0x10 ./t186ref/tegra/t186/release/bl31/plat_trampoline.o
+                0x000000003000b0c0                tegra186_get_cpu_reset_handler_size
+ .text.tegra186_get_cpu_reset_handler_base
+                0x000000003000b0d0        0x8 ./t186ref/tegra/t186/release/bl31/plat_trampoline.o
+                0x000000003000b0d0                tegra186_get_cpu_reset_handler_base
+ .text.tegra186_get_smmu_ctx_offset
+                0x000000003000b0d8       0x10 ./t186ref/tegra/t186/release/bl31/plat_trampoline.o
+                0x000000003000b0d8                tegra186_get_smmu_ctx_offset
+ .text.tegra186_set_system_suspend_entry
+                0x000000003000b0e8       0x40 ./t186ref/tegra/t186/release/bl31/plat_trampoline.o
+                0x000000003000b0e8                tegra186_set_system_suspend_entry
+ .text.smc_handler
+                0x000000003000b128       0x88 ./t186ref/tegra/t186/release/bl31/runtime_exceptions.o
+ .text.print_newline
+                0x000000003000b1b0        0x8 ./t186ref/tegra/t186/release/bl31/crash_reporting.o
+ .text.size_controlled_print
+                0x000000003000b1b8       0x4c ./t186ref/tegra/t186/release/bl31/crash_reporting.o
+ .text.str_in_crash_buf_print
+                0x000000003000b204       0x18 ./t186ref/tegra/t186/release/bl31/crash_reporting.o
+ .text.report_unhandled_exception
+                0x000000003000b21c       0x28 ./t186ref/tegra/t186/release/bl31/crash_reporting.o
+                0x000000003000b21c                report_unhandled_exception
+ .text.report_unhandled_interrupt
+                0x000000003000b244       0x28 ./t186ref/tegra/t186/release/bl31/crash_reporting.o
+                0x000000003000b244                report_unhandled_interrupt
+ .text.el3_panic
+                0x000000003000b26c       0x2c ./t186ref/tegra/t186/release/bl31/crash_reporting.o
+                0x000000003000b26c                el3_panic
+ .text.do_crash_reporting
+                0x000000003000b298      0x1bc ./t186ref/tegra/t186/release/bl31/crash_reporting.o
+ .text.crash_panic
+                0x000000003000b454        0x4 ./t186ref/tegra/t186/release/bl31/crash_reporting.o
+ .text.plat_get_my_stack
+                0x000000003000b458       0x20 ./t186ref/tegra/t186/release/bl31/platform_mp_stack.o
+                0x000000003000b458                plat_get_my_stack
+ .text.plat_set_my_stack
+                0x000000003000b478       0x10 ./t186ref/tegra/t186/release/bl31/platform_mp_stack.o
+                0x000000003000b478                plat_set_my_stack
+ .text.init_cpu_data_ptr
+                0x000000003000b488       0x14 ./t186ref/tegra/t186/release/bl31/cpu_data.o
+                0x000000003000b488                init_cpu_data_ptr
+ .text._cpu_data_by_index
+                0x000000003000b49c        0xc ./t186ref/tegra/t186/release/bl31/cpu_data.o
+                0x000000003000b49c                _cpu_data_by_index
+ .text.reset_handler
+                0x000000003000b4a8       0x34 ./t186ref/tegra/t186/release/bl31/cpu_helpers.o
+                0x000000003000b4a8                reset_handler
+ .text.prepare_cpu_pwr_dwn
+                0x000000003000b4dc       0x38 ./t186ref/tegra/t186/release/bl31/cpu_helpers.o
+                0x000000003000b4dc                prepare_cpu_pwr_dwn
+ .text.init_cpu_ops
+                0x000000003000b514       0x34 ./t186ref/tegra/t186/release/bl31/cpu_helpers.o
+                0x000000003000b514                init_cpu_ops
+ .text.do_cpu_reg_dump
+                0x000000003000b548       0x20 ./t186ref/tegra/t186/release/bl31/cpu_helpers.o
+                0x000000003000b548                do_cpu_reg_dump
+ .text.get_cpu_ops_ptr
+                0x000000003000b568       0x3c ./t186ref/tegra/t186/release/bl31/cpu_helpers.o
+                0x000000003000b568                get_cpu_ops_ptr
+ .text.cpu_get_rev_var
+                0x000000003000b5a4       0x10 ./t186ref/tegra/t186/release/bl31/cpu_helpers.o
+                0x000000003000b5a4                cpu_get_rev_var
+ .text.cpu_rev_var_ls
+                0x000000003000b5b4       0x14 ./t186ref/tegra/t186/release/bl31/cpu_helpers.o
+                0x000000003000b5b4                cpu_rev_var_ls
+ .text.check_wa_cve_2017_5715
+                0x000000003000b5c8       0x34 ./t186ref/tegra/t186/release/bl31/cpu_helpers.o
+                0x000000003000b5c8                check_wa_cve_2017_5715
+ .text.spin_lock
+                0x000000003000b5fc       0x20 ./t186ref/tegra/t186/release/bl31/spinlock.o
+                0x000000003000b5fc                spin_lock
+ .text.spin_unlock
+                0x000000003000b61c        0x8 ./t186ref/tegra/t186/release/bl31/spinlock.o
+                0x000000003000b61c                spin_unlock
+ .text.psci_do_pwrdown_cache_maintenance
+                0x000000003000b624       0x3c ./t186ref/tegra/t186/release/bl31/psci_helpers.o
+                0x000000003000b624                psci_do_pwrdown_cache_maintenance
+ .text.psci_power_down_wfi
+                0x000000003000b660        0xc ./t186ref/tegra/t186/release/bl31/psci_helpers.o
+                0x000000003000b660                psci_power_down_wfi
+ .text.el1_sysregs_context_save
+                0x000000003000b66c       0xbc ./t186ref/tegra/t186/release/bl31/context.o
+                0x000000003000b66c                el1_sysregs_context_save
+ .text.el1_sysregs_context_restore
+                0x000000003000b728       0xbc ./t186ref/tegra/t186/release/bl31/context.o
+                0x000000003000b728                el1_sysregs_context_restore
+ .text.save_gp_registers
+                0x000000003000b7e4       0x48 ./t186ref/tegra/t186/release/bl31/context.o
+                0x000000003000b7e4                save_gp_registers
+ .text.restore_gp_registers
+                0x000000003000b82c       0x48 ./t186ref/tegra/t186/release/bl31/context.o
+                0x000000003000b82c                restore_gp_registers
+ .text.restore_gp_registers_eret
+                0x000000003000b874       0x14 ./t186ref/tegra/t186/release/bl31/context.o
+                0x000000003000b874                restore_gp_registers_eret
+ .text.el3_exit
+                0x000000003000b888       0x24 ./t186ref/tegra/t186/release/bl31/context.o
+                0x000000003000b888                el3_exit
+ .text.trusty_context_switch_helper
+                0x000000003000b8ac       0x7c ./t186ref/tegra/t186/release/bl31/trusty_helpers.o
+                0x000000003000b8ac                trusty_context_switch_helper
+ .text.trusty_init_context_stack
+                0x000000003000b928       0x28 ./t186ref/tegra/t186/release/bl31/trusty_helpers.o
+                0x000000003000b928                trusty_init_context_stack
+ .text.asm_assert
+                0x000000003000b950       0x5c ./t186ref/tegra/t186/release/bl31/debug.o
+                0x000000003000b950                asm_assert
+ .text.asm_print_str
+                0x000000003000b9ac       0x18 ./t186ref/tegra/t186/release/bl31/debug.o
+                0x000000003000b9ac                asm_print_str
+ .text.asm_print_hex
+                0x000000003000b9c4       0x30 ./t186ref/tegra/t186/release/bl31/debug.o
+                0x000000003000b9c4                asm_print_hex
+ .text.do_panic
+                0x000000003000b9f4       0x44 ./t186ref/tegra/t186/release/bl31/debug.o
+                0x000000003000b9f4                do_panic
+ .text.flush_dcache_range
+                0x000000003000ba38       0x34 ./t186ref/tegra/t186/release/bl31/cache_helpers.o
+                0x000000003000ba38                flush_dcache_range
+ .text.clean_dcache_range
+                0x000000003000ba6c       0x34 ./t186ref/tegra/t186/release/bl31/cache_helpers.o
+                0x000000003000ba6c                clean_dcache_range
+ .text.inv_dcache_range
+                0x000000003000baa0       0x34 ./t186ref/tegra/t186/release/bl31/cache_helpers.o
+                0x000000003000baa0                inv_dcache_range
+ .text.do_dcsw_op
+                0x000000003000bad4       0xdc ./t186ref/tegra/t186/release/bl31/cache_helpers.o
+ .text.dcsw_op_level1
+                0x000000003000bbb0       0x10 ./t186ref/tegra/t186/release/bl31/cache_helpers.o
+                0x000000003000bbb0                dcsw_op_level1
+ .text.dcsw_op_level2
+                0x000000003000bbc0       0x10 ./t186ref/tegra/t186/release/bl31/cache_helpers.o
+                0x000000003000bbc0                dcsw_op_level2
+ .text.zeromem  0x000000003000bbd0        0x8 ./t186ref/tegra/t186/release/bl31/misc_helpers.o
+                0x000000003000bbd0                zeromem
+                0x000000003000bbd0                zeromem16
+ .text.zeromem_dczva
+                0x000000003000bbd8      0x114 ./t186ref/tegra/t186/release/bl31/misc_helpers.o
+                0x000000003000bbd8                zero_normalmem
+ .text.memcpy16
+                0x000000003000bcec       0x48 ./t186ref/tegra/t186/release/bl31/misc_helpers.o
+                0x000000003000bcec                memcpy16
+ .text.plat_crash_console_flush
+                0x000000003000bd34        0x4 ./t186ref/tegra/t186/release/bl31/platform_helpers.o
+                0x000000003000bd34                plat_crash_console_flush
+ .text.plat_disable_acp
+                0x000000003000bd38        0x4 ./t186ref/tegra/t186/release/bl31/platform_helpers.o
+                0x000000003000bd38                plat_disable_acp
+ .text.plat_panic_handler
+                0x000000003000bd3c        0x8 ./t186ref/tegra/t186/release/bl31/platform_helpers.o
+                0x000000003000bd3c                plat_panic_handler
+ *(.vectors)
+ *fill*         0x000000003000bd44      0x2bc 
+ .vectors       0x000000003000c000      0x800 ./t186ref/tegra/t186/release/bl31/denver.o
+                0x000000003000c000                workaround_bpflush_runtime_exceptions
+ .vectors       0x000000003000c800      0x800 ./t186ref/tegra/t186/release/bl31/runtime_exceptions.o
+                0x000000003000c800                sync_exception_sp_el0
+                0x000000003000c800                runtime_exceptions
+                0x000000003000c880                irq_sp_el0
+                0x000000003000c900                fiq_sp_el0
+                0x000000003000c980                serror_sp_el0
+                0x000000003000ca00                sync_exception_sp_elx
+                0x000000003000ca80                irq_sp_elx
+                0x000000003000cb00                fiq_sp_elx
+                0x000000003000cb80                serror_sp_elx
+                0x000000003000cc00                sync_exception_aarch64
+                0x000000003000cc80                irq_aarch64
+                0x000000003000cd00                fiq_aarch64
+                0x000000003000cd80                serror_aarch64
+                0x000000003000ce00                sync_exception_aarch32
+                0x000000003000ce80                irq_aarch32
+                0x000000003000cf00                fiq_aarch32
+                0x000000003000cf80                serror_aarch32
+ .vectors       0x000000003000d000      0x800 ./t186ref/tegra/t186/release/bl31/wa_cve_2017_5715_mmu.o
+                0x000000003000d000                wa_cve_2017_5715_mmu_vbar
+                0x000000003000e000                . = ALIGN (0x1000)
+ *fill*         0x000000003000d800      0x800 
+                0x000000003000e000                __TEXT_END__ = .
+
+.iplt           0x000000003000e000        0x0
+ .iplt          0x000000003000e000        0x0 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+
+.rela.dyn       0x000000003000e000        0x0
+ .rela.iplt     0x000000003000e000        0x0 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+ .rela.got      0x000000003000e000        0x0 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+ .rela.text.tegra_get_bl31_text_start
+                0x000000003000e000        0x0 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+ .rela.text.tegra_get_bl31_text_end
+                0x000000003000e000        0x0 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+ .rela.text.tegra_get_bl31_rw_start
+                0x000000003000e000        0x0 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+ .rela.text.tegra_get_bl31_rw_end
+                0x000000003000e000        0x0 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+ .rela.text.tegra_get_bl31_rodata_start
+                0x000000003000e000        0x0 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+ .rela.text.tegra_get_bl31_rodata_end
+                0x000000003000e000        0x0 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+ .rela.text.tegra186_cpu_reset_handler
+                0x000000003000e000        0x0 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+ .rela.text.bl31_entrypoint
+                0x000000003000e000        0x0 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+ .rela.text.smc_handler
+                0x000000003000e000        0x0 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+ .rela.text._cpu_data_by_index
+                0x000000003000e000        0x0 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+ .rela.text.get_cpu_ops_ptr
+                0x000000003000e000        0x0 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+
+.rodata         0x000000003000e000     0x4000
+                0x000000003000e000                __RODATA_START__ = .
+ *(.rodata*)
+ .rodata.build_message
+                0x000000003000e000       0x1e ./t186ref/tegra/t186/release/bl31/build_message.o
+                0x000000003000e000                build_message
+ .rodata.version_string
+                0x000000003000e01e        0xf ./t186ref/tegra/t186/release/bl31/build_message.o
+                0x000000003000e01e                version_string
+ .rodata.timer_init.str1.1
+                0x000000003000e02d       0x71 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+ .rodata.udelay.str1.1
+                0x000000003000e09e       0xa4 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+ .rodata.boot_profiler_init.str1.1
+                0x000000003000e142       0x54 ./t186ref/tegra/t186/release/bl31/profiler.o
+ .rodata.bl31_check_ns_address.str1.1
+                0x000000003000e196       0x4d ./t186ref/tegra/t186/release/bl31/tegra_bl31_setup.o
+ .rodata.bl31_early_platform_setup.str1.1
+                0x000000003000e1e3       0x9d ./t186ref/tegra/t186/release/bl31/tegra_bl31_setup.o
+ .rodata.bl31_plat_arch_setup.str1.1
+                0x000000003000e280       0x2b ./t186ref/tegra/t186/release/bl31/tegra_bl31_setup.o
+ .rodata.bl31_plat_runtime_setup.str1.1
+                0x000000003000e2ab        0xf ./t186ref/tegra/t186/release/bl31/tegra_bl31_setup.o
+ .rodata.bl31_platform_setup.str1.1
+                0x000000003000e2ba       0x2b ./t186ref/tegra/t186/release/bl31/tegra_bl31_setup.o
+ .rodata.CSWTCH.8
+                0x000000003000e2e5        0x7 ./t186ref/tegra/t186/release/bl31/tegra_platform.o
+ .rodata.CSWTCH.9
+                0x000000003000e2ec        0x8 ./t186ref/tegra/t186/release/bl31/tegra_platform.o
+ .rodata.__func__.2750
+                0x000000003000e2f4       0x12 ./t186ref/tegra/t186/release/bl31/tegra_pm.o
+ .rodata.tegra_cpu_standby.str1.1
+                0x000000003000e306       0x14 ./t186ref/tegra/t186/release/bl31/tegra_pm.o
+ .rodata.tegra_validate_power_state.str1.1
+                0x000000003000e31a       0x36 ./t186ref/tegra/t186/release/bl31/tegra_pm.o
+ .rodata.__func__.2520
+                0x000000003000e350       0x12 ./t186ref/tegra/t186/release/bl31/tegra_sip_calls.o
+ .rodata.str1.1
+                0x000000003000e362        0xf ./t186ref/tegra/t186/release/bl31/tegra_sip_calls.o
+ .rodata.tegra_sip_handler.str1.1
+                0x000000003000e371       0x88 ./t186ref/tegra/t186/release/bl31/tegra_sip_calls.o
+ .rodata.gicd_set_ipriorityr.str1.1
+                0x000000003000e3f9       0xb4 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .rodata.__func__.1480
+                0x000000003000e4ad       0x1e ./t186ref/tegra/t186/release/bl31/intf.o
+ .rodata.__func__.1527
+                0x000000003000e4cb       0x1f ./t186ref/tegra/t186/release/bl31/intf.o
+ .rodata.__func__.1538
+                0x000000003000e4ea       0x14 ./t186ref/tegra/t186/release/bl31/intf.o
+ .rodata.__func__.1553
+                0x000000003000e4fe       0x1c ./t186ref/tegra/t186/release/bl31/intf.o
+ .rodata.__func__.1559
+                0x000000003000e51a       0x1d ./t186ref/tegra/t186/release/bl31/intf.o
+ .rodata.tegra_bpmp_ipc_init.str1.1
+                0x000000003000e537       0x7a ./t186ref/tegra/t186/release/bl31/intf.o
+ .rodata.tegra_bpmp_ipc_reset_module.str1.1
+                0x000000003000e5b1       0xae ./t186ref/tegra/t186/release/bl31/intf.o
+ .rodata.tegra_bpmp_ipc_send_req_atomic.constprop.0.str1.1
+                0x000000003000e65f       0xac ./t186ref/tegra/t186/release/bl31/intf.o
+ .rodata.ivc_frame_pointer.part.4.str1.1
+                0x000000003000e70b       0x45 ./t186ref/tegra/t186/release/bl31/ivc.o
+ .rodata.tegra_ivc_init.str1.1
+                0x000000003000e750       0xb4 ./t186ref/tegra/t186/release/bl31/ivc.o
+ .rodata.tegra_ivc_total_queue_size.str1.1
+                0x000000003000e804       0x32 ./t186ref/tegra/t186/release/bl31/ivc.o
+ .rodata.plat_interrupt_type_to_line.str1.1
+                0x000000003000e836       0x72 ./t186ref/tegra/t186/release/bl31/gic.o
+ .rodata.tegra_gic_setup.str1.1
+                0x000000003000e8a8       0x58 ./t186ref/tegra/t186/release/bl31/gic.o
+ .rodata.tegra_gpcdma_memcpy_priv.str1.1
+                0x000000003000e900       0x3f ./t186ref/tegra/t186/release/bl31/gpcdma.o
+ .rodata.tegra_clear_videomem.str1.1
+                0x000000003000e93f       0x3f ./t186ref/tegra/t186/release/bl31/memctrl_v2.o
+ .rodata.tegra_memctrl_setup.str1.1
+                0x000000003000e97e       0x19 ./t186ref/tegra/t186/release/bl31/memctrl_v2.o
+ .rodata.tegra_memctrl_tzram_setup.str1.1
+                0x000000003000e997       0x24 ./t186ref/tegra/t186/release/bl31/memctrl_v2.o
+ .rodata.tegra_smmu_save_context.str1.1
+                0x000000003000e9bb       0xd8 ./t186ref/tegra/t186/release/bl31/smmu.o
+ .rodata.__func__.2968
+                0x000000003000ea93       0x14 ./t186ref/tegra/t186/release/bl31/mce.o
+ .rodata.mce_command_handler.str1.1
+                0x000000003000eaa7      0x1cb ./t186ref/tegra/t186/release/bl31/mce.o
+ .rodata.mce_verify_firmware_version.str1.1
+                0x000000003000ec72       0x4a ./t186ref/tegra/t186/release/bl31/mce.o
+ .rodata.__func__.3093
+                0x000000003000ecbc       0x11 ./t186ref/tegra/t186/release/bl31/ari.o
+ .rodata.__func__.3136
+                0x000000003000eccd       0x13 ./t186ref/tegra/t186/release/bl31/ari.o
+ .rodata.__func__.3144
+                0x000000003000ece0       0x13 ./t186ref/tegra/t186/release/bl31/ari.o
+ .rodata.__func__.3153
+                0x000000003000ecf3       0x10 ./t186ref/tegra/t186/release/bl31/ari.o
+ .rodata.__func__.3209
+                0x000000003000ed03       0x10 ./t186ref/tegra/t186/release/bl31/ari.o
+ .rodata.ari_enter_cstate.str1.1
+                0x000000003000ed13       0x22 ./t186ref/tegra/t186/release/bl31/ari.o
+ .rodata.ari_is_ccx_allowed.str1.1
+                0x000000003000ed35       0x1a ./t186ref/tegra/t186/release/bl31/ari.o
+ .rodata.ari_misc_ccplex.str1.1
+                0x000000003000ed4f       0x22 ./t186ref/tegra/t186/release/bl31/ari.o
+ .rodata.ari_online_core.str1.1
+                0x000000003000ed71       0x4a ./t186ref/tegra/t186/release/bl31/ari.o
+ .rodata.ari_read_write_uncore_perfmon.str1.1
+                0x000000003000edbb       0x1d ./t186ref/tegra/t186/release/bl31/ari.o
+ .rodata.ari_request_wait.constprop.1.str1.1
+                0x000000003000edd8       0x6d ./t186ref/tegra/t186/release/bl31/ari.o
+ .rodata.__func__.3115
+                0x000000003000ee45       0x11 ./t186ref/tegra/t186/release/bl31/nvg.o
+ .rodata.__func__.3155
+                0x000000003000ee56       0x13 ./t186ref/tegra/t186/release/bl31/nvg.o
+ .rodata.__func__.3163
+                0x000000003000ee69       0x10 ./t186ref/tegra/t186/release/bl31/nvg.o
+ .rodata.nvg_enter_cstate.str1.1
+                0x000000003000ee79       0x22 ./t186ref/tegra/t186/release/bl31/nvg.o
+ .rodata.nvg_online_core.str1.1
+                0x000000003000ee79       0x4a ./t186ref/tegra/t186/release/bl31/nvg.o
+ .rodata.__func__.2561
+                0x000000003000ee79       0x1c ./t186ref/tegra/t186/release/bl31/se.o
+ .rodata.__func__.2610
+                0x000000003000ee95       0x1a ./t186ref/tegra/t186/release/bl31/se.o
+ .rodata.tegra_se_save_sha256_hash.str1.1
+                0x000000003000eeaf      0x144 ./t186ref/tegra/t186/release/bl31/se.o
+ .rodata.str1.1
+                0x000000003000eff3      0x217 ./t186ref/tegra/t186/release/bl31/plat_memctrl.o
+ .rodata.tegra186_memctrl_reconfig_mss_clients.str1.1
+                0x000000003000f20a       0x9c ./t186ref/tegra/t186/release/bl31/plat_memctrl.o
+ *fill*         0x000000003000f2a6        0x2 
+ .rodata.tegra186_streamid_override_regs
+                0x000000003000f2a8      0x120 ./t186ref/tegra/t186/release/bl31/plat_memctrl.o
+ .rodata.tegra186_txn_override_cfgs
+                0x000000003000f3c8       0xf8 ./t186ref/tegra/t186/release/bl31/plat_memctrl.o
+ .rodata.__func__.3380
+                0x000000003000f4c0       0x1f ./t186ref/tegra/t186/release/bl31/plat_psci_handlers.o
+ .rodata.__func__.3438
+                0x000000003000f4df       0x18 ./t186ref/tegra/t186/release/bl31/plat_psci_handlers.o
+ .rodata.tegra_soc_pwr_domain_on.str1.1
+                0x000000003000f4f7       0x26 ./t186ref/tegra/t186/release/bl31/plat_psci_handlers.o
+ .rodata.tegra_soc_pwr_domain_power_down_wfi.str1.1
+                0x000000003000f51d       0xb8 ./t186ref/tegra/t186/release/bl31/plat_psci_handlers.o
+ .rodata.tegra_soc_validate_power_state.str1.1
+                0x000000003000f5d5       0x28 ./t186ref/tegra/t186/release/bl31/plat_psci_handlers.o
+ .rodata.plat_relocate_bl32_image.str1.1
+                0x000000003000f5fd       0x96 ./t186ref/tegra/t186/release/bl31/plat_setup.o
+ *fill*         0x000000003000f693        0x1 
+ .rodata.tegra186_sec_irqs
+                0x000000003000f694       0x18 ./t186ref/tegra/t186/release/bl31/plat_setup.o
+ .rodata.tegra186_uart_addresses
+                0x000000003000f6ac       0x20 ./t186ref/tegra/t186/release/bl31/plat_setup.o
+ *fill*         0x000000003000f6cc        0x4 
+ .rodata.tegra_mmap
+                0x000000003000f6d0      0x2e0 ./t186ref/tegra/t186/release/bl31/plat_setup.o
+ .rodata.tegra_power_domain_tree_desc
+                0x000000003000f9b0        0x4 ./t186ref/tegra/t186/release/bl31/plat_setup.o
+ .rodata.bl31_main.str1.1
+                0x000000003000f9b4       0x13 ./t186ref/tegra/t186/release/bl31/bl31_main.o
+ .rodata.bl31_prepare_next_image_entry.str1.1
+                0x000000003000f9c7       0xa9 ./t186ref/tegra/t186/release/bl31/bl31_main.o
+ .rodata.get_arm_std_svc_args.str1.1
+                0x000000003000fa70       0x2b ./t186ref/tegra/t186/release/bl31/bl31_main.o
+ .rodata.get_scr_el3_from_routing_model.str1.1
+                0x000000003000fa9b       0x16 ./t186ref/tegra/t186/release/bl31/interrupt_mgmt.o
+                                         0x39 (size before relaxing)
+ .rodata.cm_get_context.str1.1
+                0x000000003000fab1       0x36 ./t186ref/tegra/t186/release/bl31/bl31_context_mgmt.o
+ .rodata.cm_get_context_by_index.str1.1
+                0x000000003000fae7       0x23 ./t186ref/tegra/t186/release/bl31/bl31_context_mgmt.o
+ .rodata.handle_runtime_svc.str1.1
+                0x000000003000fae7       0x24 ./t186ref/tegra/t186/release/bl31/runtime_svc.o
+ .rodata.runtime_svc_init.str1.1
+                0x000000003000fb0b       0x93 ./t186ref/tegra/t186/release/bl31/runtime_svc.o
+ .rodata.str1.1
+                0x000000003000fb9e        0xd ./t186ref/tegra/t186/release/bl31/arm_arch_svc_setup.o
+ .rodata.std_svc_setup.str1.1
+                0x000000003000fbab       0x2f ./t186ref/tegra/t186/release/bl31/std_svc_setup.o
+ .rodata.str1.1
+                0x000000003000fbda        0x8 ./t186ref/tegra/t186/release/bl31/std_svc_setup.o
+ .rodata.cm_init_context_common.str1.1
+                0x000000003000fbe2       0x33 ./t186ref/tegra/t186/release/bl31/context_mgmt.o
+ .rodata.cm_set_next_context.str1.1
+                0x000000003000fc15       0x3e ./t186ref/tegra/t186/release/bl31/context_mgmt.o
+ .rodata.cm_write_scr_el3_bit.str1.1
+                0x000000003000fc53       0x42 ./t186ref/tegra/t186/release/bl31/context_mgmt.o
+ .rodata.psci_do_cpu_off.str1.1
+                0x000000003000fc95       0x3d ./t186ref/tegra/t186/release/bl31/psci_off.o
+ .rodata.psci_cpu_on_finish.str1.1
+                0x000000003000fcd2       0x3b ./t186ref/tegra/t186/release/bl31/psci_on.o
+ .rodata.psci_cpu_on_start.str1.1
+                0x000000003000fd0d      0x162 ./t186ref/tegra/t186/release/bl31/psci_on.o
+ .rodata.psci_cpu_suspend_finish.str1.1
+                0x000000003000fe6f       0xa0 ./t186ref/tegra/t186/release/bl31/psci_suspend.o
+ .rodata.psci_cpu_suspend_start.str1.1
+                0x000000003000ff0f       0x80 ./t186ref/tegra/t186/release/bl31/psci_suspend.o
+ .rodata.psci_do_state_coordination.str1.1
+                0x000000003000ff8f       0x1f ./t186ref/tegra/t186/release/bl31/psci_common.o
+ .rodata.psci_is_last_on_cpu.str1.1
+                0x000000003000ffae       0x33 ./t186ref/tegra/t186/release/bl31/psci_common.o
+ .rodata.psci_query_sys_suspend_pwrstate.str1.1
+                0x000000003000ffe1       0x36 ./t186ref/tegra/t186/release/bl31/psci_common.o
+ .rodata.psci_register_spd_pm_hook.str1.1
+                0x0000000030010017        0xb ./t186ref/tegra/t186/release/bl31/psci_common.o
+ .rodata.psci_set_req_local_pwr_state.part.0.str1.1
+                0x0000000030010022       0x31 ./t186ref/tegra/t186/release/bl31/psci_common.o
+ .rodata.psci_spd_migrate_info.str1.1
+                0x0000000030010053       0xa0 ./t186ref/tegra/t186/release/bl31/psci_common.o
+ .rodata.psci_validate_power_state.str1.1
+                0x00000000300100f3       0x2f ./t186ref/tegra/t186/release/bl31/psci_common.o
+ .rodata.psci_warmboot_entrypoint.str1.1
+                0x0000000030010122       0x28 ./t186ref/tegra/t186/release/bl31/psci_common.o
+ *fill*         0x000000003001014a        0x2 
+ .rodata.psci_smc_handler
+                0x000000003001014c       0x1e ./t186ref/tegra/t186/release/bl31/psci_main.o
+ .rodata.psci_cpu_off.str1.1
+                0x000000003001016a       0x14 ./t186ref/tegra/t186/release/bl31/psci_main.o
+ .rodata.psci_cpu_suspend.str1.1
+                0x000000003001017e       0xba ./t186ref/tegra/t186/release/bl31/psci_main.o
+ .rodata.psci_migrate.str1.1
+                0x0000000030010238       0x3c ./t186ref/tegra/t186/release/bl31/psci_main.o
+                                         0x6d (size before relaxing)
+ .rodata.psci_node_hw_state.str1.1
+                0x0000000030010274       0xa5 ./t186ref/tegra/t186/release/bl31/psci_main.o
+ .rodata.psci_system_suspend.str1.1
+                0x0000000030010319       0xd0 ./t186ref/tegra/t186/release/bl31/psci_main.o
+ .rodata.psci_setup.str1.1
+                0x00000000300103e9       0xb0 ./t186ref/tegra/t186/release/bl31/psci_setup.o
+ .rodata.psci_system_off.str1.1
+                0x0000000030010499       0x40 ./t186ref/tegra/t186/release/bl31/psci_system_off.o
+ .rodata.psci_system_reset.str1.1
+                0x00000000300104d9       0x27 ./t186ref/tegra/t186/release/bl31/psci_system_off.o
+ .rodata.bakery_lock_get.str1.1
+                0x0000000030010500       0x84 ./t186ref/tegra/t186/release/bl31/bakery_lock_normal.o
+ .rodata.bakery_lock_release.str1.1
+                0x0000000030010584       0x84 ./t186ref/tegra/t186/release/bl31/bakery_lock_normal.o
+                                         0x2c (size before relaxing)
+ .rodata.__func__.2572
+                0x0000000030010584       0x17 ./t186ref/tegra/t186/release/bl31/trusty.o
+ .rodata.__func__.2586
+                0x000000003001059b       0x10 ./t186ref/tegra/t186/release/bl31/trusty.o
+ .rodata.str1.1
+                0x00000000300105ab       0x17 ./t186ref/tegra/t186/release/bl31/trusty.o
+ .rodata.trusty_context_switch.str1.1
+                0x00000000300105c2       0x99 ./t186ref/tegra/t186/release/bl31/trusty.o
+ .rodata.trusty_fiq_handler.str1.1
+                0x000000003001065b       0x19 ./t186ref/tegra/t186/release/bl31/trusty.o
+ .rodata.trusty_init.str1.1
+                0x0000000030010674       0x19 ./t186ref/tegra/t186/release/bl31/trusty.o
+                                         0x10 (size before relaxing)
+ .rodata.trusty_smc_handler.str1.1
+                0x0000000030010674       0x41 ./t186ref/tegra/t186/release/bl31/trusty.o
+ .rodata.tf_printf.str1.1
+                0x00000000300106b5        0x3 ./t186ref/tegra/t186/release/bl31/tf_printf.o
+ .rodata.__assert.str1.1
+                0x00000000300106b8       0x16 ./t186ref/tegra/t186/release/bl31/assert.o
+ .rodata.enable_mmu_arch.str1.1
+                0x00000000300106ce       0x27 ./t186ref/tegra/t186/release/bl31/xlat_tables_arch.o
+ .rodata.init_xlat_tables_arch.str1.1
+                0x00000000300106f5       0x6d ./t186ref/tegra/t186/release/bl31/xlat_tables_arch.o
+ .rodata.is_mmu_enabled.str1.1
+                0x0000000030010762       0x3a ./t186ref/tegra/t186/release/bl31/xlat_tables_arch.o
+ .rodata.pa_range_bits_arr
+                0x000000003001079c       0x18 ./t186ref/tegra/t186/release/bl31/xlat_tables_arch.o
+ .rodata.xlat_arch_current_el.str1.1
+                0x00000000300107b4        0x7 ./t186ref/tegra/t186/release/bl31/xlat_tables_arch.o
+ .rodata.xlat_arch_get_xn_desc.str1.1
+                0x00000000300107bb        0x8 ./t186ref/tegra/t186/release/bl31/xlat_tables_arch.o
+ .rodata.init_xlat_tables.str1.1
+                0x00000000300107c3       0xc5 ./t186ref/tegra/t186/release/bl31/xlat_tables_common.o
+ .rodata.init_xlation_table.str1.1
+                0x0000000030010888       0x56 ./t186ref/tegra/t186/release/bl31/xlat_tables_internal.o
+ .rodata.mmap_add_region_ctx.str1.1
+                0x00000000300108de       0x71 ./t186ref/tegra/t186/release/bl31/xlat_tables_internal.o
+ .rodata.mmap_remove_dynamic_region_ctx.str1.1
+                0x000000003001094f       0x1d ./t186ref/tegra/t186/release/bl31/xlat_tables_internal.o
+ .rodata.xlat_table_get_index.str1.1
+                0x000000003001096c       0x2a ./t186ref/tegra/t186/release/bl31/xlat_tables_internal.o
+                                         0x30 (size before relaxing)
+ .rodata.xlat_tables_map_region.str1.1
+                0x0000000030010996       0xef ./t186ref/tegra/t186/release/bl31/xlat_tables_internal.o
+ .rodata.xlat_tables_unmap_region.str1.1
+                0x0000000030010a85       0x17 ./t186ref/tegra/t186/release/bl31/xlat_tables_internal.o
+ .rodata.denver_regs
+                0x0000000030010a9c        0xb ./t186ref/tegra/t186/release/bl31/denver.o
+ .rodata.cortex_a57_regs
+                0x0000000030010aa7       0x29 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .rodata.gic_reg_name
+                0x0000000030010ad0       0x66 ./t186ref/tegra/t186/release/bl31/crash_reporting.o
+ .rodata.crash_prints
+                0x0000000030010b36      0x2b0 ./t186ref/tegra/t186/release/bl31/crash_reporting.o
+ .rodata.str1.1
+                0x0000000030010de6       0x1f ./t186ref/tegra/t186/release/bl31/cpu_helpers.o
+ .rodata.assert_str
+                0x0000000030010e05       0x15 ./t186ref/tegra/t186/release/bl31/debug.o
+ .rodata.panic_str
+                0x0000000030010e1a       0x11 ./t186ref/tegra/t186/release/bl31/debug.o
+ .rodata.str1.1
+                0x0000000030010e2b       0x1b ./t186ref/tegra/t186/release/bl31/misc_helpers.o
+                0x0000000030010e48                . = ALIGN (0x8)
+ *fill*         0x0000000030010e46        0x2 
+                0x0000000030010e48                __RT_SVC_DESCS_START__ = .
+ *(rt_svc_descs)
+ rt_svc_descs   0x0000000030010e48       0x20 ./t186ref/tegra/t186/release/bl31/tegra_sip_calls.o
+ rt_svc_descs   0x0000000030010e68       0x20 ./t186ref/tegra/t186/release/bl31/arm_arch_svc_setup.o
+ rt_svc_descs   0x0000000030010e88       0x20 ./t186ref/tegra/t186/release/bl31/std_svc_setup.o
+ rt_svc_descs   0x0000000030010ea8       0x40 ./t186ref/tegra/t186/release/bl31/trusty.o
+                0x0000000030010ee8                __RT_SVC_DESCS_END__ = .
+                0x0000000030010ee8                . = ALIGN (0x8)
+                0x0000000030010ee8                __CPU_OPS_START__ = .
+ *(cpu_ops)
+ cpu_ops        0x0000000030010ee8      0x118 ./t186ref/tegra/t186/release/bl31/denver.o
+ cpu_ops        0x0000000030011000       0x38 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+                0x0000000030011038                __CPU_OPS_END__ = .
+                0x0000000030012000                . = ALIGN (0x1000)
+ *fill*         0x0000000030011038      0xfc8 
+                0x0000000030012000                __RODATA_END__ = .
+                0x00000000000000a0                __RT_SVC_DESCS_SIZE__ = (__RT_SVC_DESCS_END__ - __RT_SVC_DESCS_START__)
+                0x0000000000000001                ASSERT ((__CPU_OPS_END__ > __CPU_OPS_START__), cpu_ops not defined for this platform.)
+                0x0000000030012000                __RW_START__ = .
+
+.data           0x0000000030012000     0x2b10
+                0x0000000030012000                __DATA_START__ = .
+ *(.data*)
+ .data.plat_bl31_params_from_bl2
+                0x0000000030012000       0x38 ./t186ref/tegra/t186/release/bl31/tegra_bl31_setup.o
+ .data.rel.local.tegra_plat_psci_ops
+                0x0000000030012038       0x78 ./t186ref/tegra/t186/release/bl31/tegra_pm.o
+ .data.rel.ari_mce_ops
+                0x00000000300120b0       0x98 ./t186ref/tegra/t186/release/bl31/mce.o
+ .data.rel.nvg_mce_ops
+                0x0000000030012148       0x98 ./t186ref/tegra/t186/release/bl31/mce.o
+ .data.rel.ro.local.mce_cfg_table
+                0x00000000300121e0       0x60 ./t186ref/tegra/t186/release/bl31/mce.o
+ .data.rel.local.tegra186_mc_settings
+                0x0000000030012240       0x40 ./t186ref/tegra/t186/release/bl31/plat_memctrl.o
+ .data.rel.ro.local.tegra186_streamid_sec_cfgs
+                0x0000000030012280      0x6c0 ./t186ref/tegra/t186/release/bl31/plat_memctrl.o
+ .data.tegra186_smmu_context
+                0x0000000030012940     0x20e0 ./t186ref/tegra/t186/release/bl31/plat_smmu.o
+ .data.next_image_type
+                0x0000000030014a20        0x4 ./t186ref/tegra/t186/release/bl31/bl31_main.o
+ *fill*         0x0000000030014a24        0x4 
+ .data.rel.ro.psci_args.2559
+                0x0000000030014a28       0x10 ./t186ref/tegra/t186/release/bl31/bl31_main.o
+ .data.rel.ro.local.trusty_pm
+                0x0000000030014a38       0x48 ./t186ref/tegra/t186/release/bl31/trusty.o
+ .data.rel.local.tf_xlat_ctx
+                0x0000000030014a80       0x70 ./t186ref/tegra/t186/release/bl31/xlat_tables_common.o
+ .data.console_base
+                0x0000000030014af0        0x8 ./t186ref/tegra/t186/release/bl31/console.o
+ .data          0x0000000030014af8       0x18 ./t186ref/tegra/t186/release/bl31/tegra_helpers.o
+                0x0000000030014af8                tegra_sec_entry_point
+                0x0000000030014b00                tegra_bl31_phys_base
+                0x0000000030014b08                tegra_console_base
+                0x0000000030014b10                __DATA_END__ = .
+
+.igot.plt       0x0000000030014b10        0x0
+ .igot.plt      0x0000000030014b10        0x0 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+
+.got            0x0000000030014b10       0x68
+ .got           0x0000000030014b10       0x68 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+                0x0000000030014b10                _GLOBAL_OFFSET_TABLE_
+
+.got.plt        0x0000000030014b78       0x18
+ .got.plt       0x0000000030014b78       0x18 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+
+stacks          0x0000000030014bc0     0x2000
+                0x0000000030014bc0                __STACKS_START__ = .
+ *(tzfw_normal_stacks)
+ tzfw_normal_stacks
+                0x0000000030014bc0     0x2000 ./t186ref/tegra/t186/release/bl31/platform_mp_stack.o
+                0x0000000030016bc0                __STACKS_END__ = .
+
+.bss            0x0000000030016c00     0x5e80
+                0x0000000030016c00                __BSS_START__ = .
+ *(.bss*)
+ .bss.ops       0x0000000030016c00        0x8 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+ .bss.cur       0x0000000030016c08        0x8 ./t186ref/tegra/t186/release/bl31/profiler.o
+ .bss.head      0x0000000030016c10        0x8 ./t186ref/tegra/t186/release/bl31/profiler.o
+ .bss.is_shmem_buf_mapped
+                0x0000000030016c18        0x1 ./t186ref/tegra/t186/release/bl31/profiler.o
+ *fill*         0x0000000030016c19        0x7 
+ .bss.shmem_base_addr
+                0x0000000030016c20        0x8 ./t186ref/tegra/t186/release/bl31/profiler.o
+ .bss.tail      0x0000000030016c28        0x8 ./t186ref/tegra/t186/release/bl31/profiler.o
+ .bss.tmr       0x0000000030016c30        0x4 ./t186ref/tegra/t186/release/bl31/profiler.o
+ *fill*         0x0000000030016c34        0x4 
+ .bss.bl32_image_ep_info
+                0x0000000030016c38       0x58 ./t186ref/tegra/t186/release/bl31/tegra_bl31_setup.o
+ .bss.bl33_image_ep_info
+                0x0000000030016c90       0x58 ./t186ref/tegra/t186/release/bl31/tegra_bl31_setup.o
+ .bss.tegra_timer_ops.2562
+                0x0000000030016ce8       0x10 ./t186ref/tegra/t186/release/bl31/tegra_delay_timer.o
+ .bss.fiq_handler_active
+                0x0000000030016cf8        0x4 ./t186ref/tegra/t186/release/bl31/tegra_fiq_glue.o
+ *fill*         0x0000000030016cfc        0x4 
+ .bss.fiq_state
+                0x0000000030016d00       0x80 ./t186ref/tegra/t186/release/bl31/tegra_fiq_glue.o
+ .bss.ns_fiq_handler_addr
+                0x0000000030016d80        0x8 ./t186ref/tegra/t186/release/bl31/tegra_fiq_glue.o
+ .bss.ivc_ccplex_bpmp_channel
+                0x0000000030016d88       0x28 ./t186ref/tegra/t186/release/bl31/intf.o
+ .bss.s_channel
+                0x0000000030016db0       0x10 ./t186ref/tegra/t186/release/bl31/intf.o
+ .bss.g_irq_sec_ptr
+                0x0000000030016dc0        0x8 ./t186ref/tegra/t186/release/bl31/gic.o
+ .bss.g_num_irqs
+                0x0000000030016dc8        0x4 ./t186ref/tegra/t186/release/bl31/gic.o
+ .bss.init_done
+                0x0000000030016dcc        0x1 ./t186ref/tegra/t186/release/bl31/gpcdma.o
+ *fill*         0x0000000030016dcd        0x3 
+ .bss.video_mem_base
+                0x0000000030016dd0        0x8 ./t186ref/tegra/t186/release/bl31/memctrl_v2.o
+ .bss.video_mem_size_mb
+                0x0000000030016dd8        0x8 ./t186ref/tegra/t186/release/bl31/memctrl_v2.o
+ .bss.se_regs   0x0000000030016de0        0xc ./t186ref/tegra/t186/release/bl31/plat_psci_handlers.o
+ *fill*         0x0000000030016dec       0x14 
+ .bss.tegra_percpu_data
+                0x0000000030016e00      0x200 ./t186ref/tegra/t186/release/bl31/plat_psci_handlers.o
+ .bss.bl32_init
+                0x0000000030017000        0x8 ./t186ref/tegra/t186/release/bl31/bl31_main.o
+ .bss.intr_type_descs
+                0x0000000030017008       0x48 ./t186ref/tegra/t186/release/bl31/interrupt_mgmt.o
+ .bss.rt_svc_descs
+                0x0000000030017050        0x8 ./t186ref/tegra/t186/release/bl31/runtime_svc.o
+ .bss.psci_req_local_pwr_states
+                0x0000000030017058       0x10 ./t186ref/tegra/t186/release/bl31/psci_common.o
+ *fill*         0x0000000030017068        0x8 
+ .bss.psci_ns_context
+                0x0000000030017070     0x1180 ./t186ref/tegra/t186/release/bl31/psci_setup.o
+ .bss.trusty_cpu_ctx_array
+                0x00000000300181f0     0x3c00 ./t186ref/tegra/t186/release/bl31/trusty.o
+ .bss.tcr_ps_bits
+                0x000000003001bdf0        0x8 ./t186ref/tegra/t186/release/bl31/xlat_tables_arch.o
+ *fill*         0x000000003001bdf8        0x8 
+ .bss.tf_base_xlat_table
+                0x000000003001be00      0x100 ./t186ref/tegra/t186/release/bl31/xlat_tables_common.o
+ .bss.tf_mmap   0x000000003001bf00      0x380 ./t186ref/tegra/t186/release/bl31/xlat_tables_common.o
+ .bss.xlat_tables_mapped_regions
+                0x000000003001c280       0x64 ./t186ref/tegra/t186/release/bl31/xlat_tables_common.o
+ *(COMMON)
+ COMMON         0x000000003001c2e4       0x80 ./t186ref/tegra/t186/release/bl31/runtime_svc.o
+                0x000000003001c2e4                rt_svc_descs_indices
+ *fill*         0x000000003001c364       0x1c 
+ COMMON         0x000000003001c380      0x400 ./t186ref/tegra/t186/release/bl31/cpu_data_array.o
+                0x000000003001c380                percpu_data
+ COMMON         0x000000003001c780       0xc0 ./t186ref/tegra/t186/release/bl31/psci_common.o
+                0x000000003001c780                psci_cpu_pd_nodes
+                0x000000003001c800                psci_non_cpu_pd_nodes
+                0x000000003001c830                psci_plat_pm_ops
+                0x000000003001c838                psci_spd_pm
+ COMMON         0x000000003001c840        0x4 ./t186ref/tegra/t186/release/bl31/psci_setup.o
+                0x000000003001c840                psci_caps
+                0x000000003001c880                . = ALIGN (0x40)
+ *fill*         0x000000003001c844       0x3c 
+                0x000000003001c880                __BAKERY_LOCK_START__ = .
+ *(bakery_lock)
+ bakery_lock    0x000000003001c880        0xc ./t186ref/tegra/t186/release/bl31/psci_common.o
+                0x000000003001c880                psci_locks
+                0x000000003001c8c0                . = ALIGN (0x40)
+ *fill*         0x000000003001c88c       0x34 
+                0x0000000000000040                __PERCPU_BAKERY_LOCK_SIZE__ = ABSOLUTE ((. - __BAKERY_LOCK_START__))
+                0x000000003001ca80                . = (. + (__PERCPU_BAKERY_LOCK_SIZE__ * 0x7))
+ *fill*         0x000000003001c8c0      0x1c0 
+                0x000000003001ca80                __BAKERY_LOCK_END__ = .
+                0x000000003001ca80                __BSS_END__ = .
+
+xlat_table      0x000000003001d000    0x19000
+ *(xlat_table)
+ xlat_table     0x000000003001d000    0x19000 ./t186ref/tegra/t186/release/bl31/xlat_tables_common.o
+                0x0000000030036000                __RW_END__ = .
+                0x0000000030036000                __BL31_END__ = .
+                0x0000000000005e80                __BSS_SIZE__ = SIZEOF (.bss)
+                0x0000000000000001                ASSERT ((. <= 0x3003ffff), BL31 image has exceeded its limit.)
+LOAD ./t186ref/tegra/t186/release/bl31/build_message.o
+LOAD ./t186ref/tegra/t186/release/bl31/delay_timer.o
+LOAD ./t186ref/tegra/t186/release/bl31/profiler.o
+LOAD ./t186ref/tegra/t186/release/bl31/tegra_bl31_setup.o
+LOAD ./t186ref/tegra/t186/release/bl31/tegra_common.o
+LOAD ./t186ref/tegra/t186/release/bl31/tegra_delay_timer.o
+LOAD ./t186ref/tegra/t186/release/bl31/tegra_fiq_glue.o
+LOAD ./t186ref/tegra/t186/release/bl31/tegra_platform.o
+LOAD ./t186ref/tegra/t186/release/bl31/tegra_pm.o
+LOAD ./t186ref/tegra/t186/release/bl31/tegra_sip_calls.o
+LOAD ./t186ref/tegra/t186/release/bl31/tegra_topology.o
+LOAD ./t186ref/tegra/t186/release/bl31/gic_v2.o
+LOAD ./t186ref/tegra/t186/release/bl31/intf.o
+LOAD ./t186ref/tegra/t186/release/bl31/ivc.o
+LOAD ./t186ref/tegra/t186/release/bl31/gic.o
+LOAD ./t186ref/tegra/t186/release/bl31/gpcdma.o
+LOAD ./t186ref/tegra/t186/release/bl31/memctrl_v2.o
+LOAD ./t186ref/tegra/t186/release/bl31/smmu.o
+LOAD ./t186ref/tegra/t186/release/bl31/mce.o
+LOAD ./t186ref/tegra/t186/release/bl31/ari.o
+LOAD ./t186ref/tegra/t186/release/bl31/nvg.o
+LOAD ./t186ref/tegra/t186/release/bl31/se.o
+LOAD ./t186ref/tegra/t186/release/bl31/plat_memctrl.o
+LOAD ./t186ref/tegra/t186/release/bl31/plat_psci_handlers.o
+LOAD ./t186ref/tegra/t186/release/bl31/plat_setup.o
+LOAD ./t186ref/tegra/t186/release/bl31/plat_secondary.o
+LOAD ./t186ref/tegra/t186/release/bl31/plat_sip_calls.o
+LOAD ./t186ref/tegra/t186/release/bl31/plat_smmu.o
+LOAD ./t186ref/tegra/t186/release/bl31/bl31_main.o
+LOAD ./t186ref/tegra/t186/release/bl31/interrupt_mgmt.o
+LOAD ./t186ref/tegra/t186/release/bl31/bl31_context_mgmt.o
+LOAD ./t186ref/tegra/t186/release/bl31/runtime_svc.o
+LOAD ./t186ref/tegra/t186/release/bl31/arm_arch_svc_setup.o
+LOAD ./t186ref/tegra/t186/release/bl31/std_svc_setup.o
+LOAD ./t186ref/tegra/t186/release/bl31/cpu_data_array.o
+LOAD ./t186ref/tegra/t186/release/bl31/context_mgmt.o
+LOAD ./t186ref/tegra/t186/release/bl31/errata_report.o
+LOAD ./t186ref/tegra/t186/release/bl31/psci_off.o
+LOAD ./t186ref/tegra/t186/release/bl31/psci_on.o
+LOAD ./t186ref/tegra/t186/release/bl31/psci_suspend.o
+LOAD ./t186ref/tegra/t186/release/bl31/psci_common.o
+LOAD ./t186ref/tegra/t186/release/bl31/psci_main.o
+LOAD ./t186ref/tegra/t186/release/bl31/psci_setup.o
+LOAD ./t186ref/tegra/t186/release/bl31/psci_system_off.o
+LOAD ./t186ref/tegra/t186/release/bl31/bakery_lock_normal.o
+LOAD ./t186ref/tegra/t186/release/bl31/trusty.o
+LOAD ./t186ref/tegra/t186/release/bl31/bl_common.o
+LOAD ./t186ref/tegra/t186/release/bl31/tf_printf.o
+LOAD ./t186ref/tegra/t186/release/bl31/assert.o
+LOAD ./t186ref/tegra/t186/release/bl31/mem.o
+LOAD ./t186ref/tegra/t186/release/bl31/putchar.o
+LOAD ./t186ref/tegra/t186/release/bl31/strlen.o
+LOAD ./t186ref/tegra/t186/release/bl31/strnlen.o
+LOAD ./t186ref/tegra/t186/release/bl31/xlat_tables_arch.o
+LOAD ./t186ref/tegra/t186/release/bl31/xlat_tables_common.o
+LOAD ./t186ref/tegra/t186/release/bl31/xlat_tables_internal.o
+LOAD ./t186ref/tegra/t186/release/bl31/console.o
+LOAD ./t186ref/tegra/t186/release/bl31/tegra_globals.o
+LOAD ./t186ref/tegra/t186/release/bl31/tegra_helpers.o
+LOAD ./t186ref/tegra/t186/release/bl31/16550_console.o
+LOAD ./t186ref/tegra/t186/release/bl31/denver.o
+LOAD ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+LOAD ./t186ref/tegra/t186/release/bl31/nvg_helpers.o
+LOAD ./t186ref/tegra/t186/release/bl31/plat_trampoline.o
+LOAD ./t186ref/tegra/t186/release/bl31/bl31_entrypoint.o
+LOAD ./t186ref/tegra/t186/release/bl31/runtime_exceptions.o
+LOAD ./t186ref/tegra/t186/release/bl31/crash_reporting.o
+LOAD ./t186ref/tegra/t186/release/bl31/platform_mp_stack.o
+LOAD ./t186ref/tegra/t186/release/bl31/cpu_data.o
+LOAD ./t186ref/tegra/t186/release/bl31/cpu_helpers.o
+LOAD ./t186ref/tegra/t186/release/bl31/spinlock.o
+LOAD ./t186ref/tegra/t186/release/bl31/psci_helpers.o
+LOAD ./t186ref/tegra/t186/release/bl31/context.o
+LOAD ./t186ref/tegra/t186/release/bl31/wa_cve_2017_5715_mmu.o
+LOAD ./t186ref/tegra/t186/release/bl31/trusty_helpers.o
+LOAD ./t186ref/tegra/t186/release/bl31/debug.o
+LOAD ./t186ref/tegra/t186/release/bl31/cache_helpers.o
+LOAD ./t186ref/tegra/t186/release/bl31/misc_helpers.o
+LOAD ./t186ref/tegra/t186/release/bl31/platform_helpers.o
+OUTPUT(t186ref/tegra/t186/release/bl31/bl31.elf elf64-littleaarch64)
+
+.comment        0x0000000000000000       0x30
+ .comment       0x0000000000000000       0x30 ./t186ref/tegra/t186/release/bl31/build_message.o
+                                         0x31 (size before relaxing)
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/profiler.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/tegra_bl31_setup.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/tegra_common.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/tegra_delay_timer.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/tegra_fiq_glue.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/tegra_platform.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/tegra_pm.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/tegra_sip_calls.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/intf.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/ivc.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/gic.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/gpcdma.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/memctrl_v2.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/smmu.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/mce.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/ari.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/nvg.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/se.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/plat_memctrl.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/plat_psci_handlers.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/plat_setup.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/plat_secondary.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/plat_sip_calls.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/plat_smmu.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/bl31_main.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/interrupt_mgmt.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/bl31_context_mgmt.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/runtime_svc.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/arm_arch_svc_setup.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/std_svc_setup.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/cpu_data_array.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/context_mgmt.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/psci_off.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/psci_on.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/psci_suspend.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/psci_common.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/psci_main.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/psci_setup.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/psci_system_off.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/bakery_lock_normal.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/trusty.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/bl_common.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/tf_printf.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/assert.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/mem.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/putchar.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/strlen.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/xlat_tables_arch.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/xlat_tables_common.o
+ .comment       0x0000000000000030       0x31 ./t186ref/tegra/t186/release/bl31/xlat_tables_internal.o
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/build_message.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/delay_timer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/profiler.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_bl31_setup.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_delay_timer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_fiq_glue.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_platform.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_pm.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tegra_sip_calls.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/gic_v2.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/intf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/ivc.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/gic.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/gpcdma.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/memctrl_v2.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/smmu.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/mce.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/ari.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/nvg.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/se.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_memctrl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_psci_handlers.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_setup.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_secondary.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_sip_calls.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/plat_smmu.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/bl31_main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/interrupt_mgmt.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/bl31_context_mgmt.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/runtime_svc.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/arm_arch_svc_setup.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/std_svc_setup.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/cpu_data_array.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/context_mgmt.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_off.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_on.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_suspend.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_setup.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/psci_system_off.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/bakery_lock_normal.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/trusty.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/bl_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/tf_printf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/assert.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/mem.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/putchar.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/strlen.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/xlat_tables_arch.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/xlat_tables_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./t186ref/tegra/t186/release/bl31/xlat_tables_internal.o
+
+.debug_frame    0x0000000000000000     0x1418
+ .debug_frame   0x0000000000000000       0x88 ./t186ref/tegra/t186/release/bl31/console.o
+ .debug_frame   0x0000000000000088      0x118 ./t186ref/tegra/t186/release/bl31/tegra_globals.o
+ .debug_frame   0x00000000000001a0      0x130 ./t186ref/tegra/t186/release/bl31/tegra_helpers.o
+ .debug_frame   0x00000000000002d0       0x70 ./t186ref/tegra/t186/release/bl31/16550_console.o
+ .debug_frame   0x0000000000000340      0x268 ./t186ref/tegra/t186/release/bl31/denver.o
+ .debug_frame   0x00000000000005a8      0x2c8 ./t186ref/tegra/t186/release/bl31/cortex_a57.o
+ .debug_frame   0x0000000000000870       0x58 ./t186ref/tegra/t186/release/bl31/nvg_helpers.o
+ .debug_frame   0x00000000000008c8       0x88 ./t186ref/tegra/t186/release/bl31/plat_trampoline.o
+ .debug_frame   0x0000000000000950       0x40 ./t186ref/tegra/t186/release/bl31/bl31_entrypoint.o
+ .debug_frame   0x0000000000000990      0x1a8 ./t186ref/tegra/t186/release/bl31/runtime_exceptions.o
+ .debug_frame   0x0000000000000b38       0xd0 ./t186ref/tegra/t186/release/bl31/crash_reporting.o
+ .debug_frame   0x0000000000000c08       0x70 ./t186ref/tegra/t186/release/bl31/platform_mp_stack.o
+ .debug_frame   0x0000000000000c78       0x40 ./t186ref/tegra/t186/release/bl31/cpu_data.o
+ .debug_frame   0x0000000000000cb8      0x100 ./t186ref/tegra/t186/release/bl31/cpu_helpers.o
+ .debug_frame   0x0000000000000db8       0x40 ./t186ref/tegra/t186/release/bl31/spinlock.o
+ .debug_frame   0x0000000000000df8       0x70 ./t186ref/tegra/t186/release/bl31/psci_helpers.o
+ .debug_frame   0x0000000000000e68       0xa0 ./t186ref/tegra/t186/release/bl31/context.o
+ .debug_frame   0x0000000000000f08      0x190 ./t186ref/tegra/t186/release/bl31/wa_cve_2017_5715_mmu.o
+ .debug_frame   0x0000000000001098       0x40 ./t186ref/tegra/t186/release/bl31/trusty_helpers.o
+ .debug_frame   0x00000000000010d8       0x70 ./t186ref/tegra/t186/release/bl31/debug.o
+ .debug_frame   0x0000000000001148       0xe8 ./t186ref/tegra/t186/release/bl31/cache_helpers.o
+ .debug_frame   0x0000000000001230       0xe8 ./t186ref/tegra/t186/release/bl31/misc_helpers.o
+ .debug_frame   0x0000000000001318      0x100 ./t186ref/tegra/t186/release/bl31/platform_helpers.o

@@ -1,0 +1,95 @@
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <trusty_ipc.h>
+//#include <trusty_log.h>
+#include <uapi/err.h>
+
+#define TLOGI(fmt, ...) \
+    fprintf(stderr, "%s: %d: " fmt, LOG_TAG, __LINE__,  ## __VA_ARGS__)
+
+#define TLOGE(fmt, ...) \
+        fprintf(stderr, "%s: %d: " fmt, LOG_TAG, __LINE__,  ## __VA_ARGS__)
+
+#define TLOG_TAG "storagetest-app"
+#define TEST_CTRL_PORT "com.android.trusty.storagetest"
+
+static const char* ashish_file = "ash_file";
+static int write_file(size_t size) {
+    uint8_t data[1024];
+    if (size > sizeof(data)) {
+        size = sizeof(data);
+    }
+    TLOGI("Ashish: writing size %zu\n", size);
+    storage_session_t session;
+    int rc = storage_open_session(&session, STORAGE_CLIENT_TP_PORT);
+    if (rc < 0) {
+        TLOGE("Ashish: couldn't open storage session\n");
+        return -1;
+    }
+    file_handle_t handle;
+    rc = storage_open_file(
+            session, &handle, kFilePath,
+            STORAGE_FILE_OPEN_CREATE | STORAGE_FILE_OPEN_TRUNCATE, 0);
+    if (rc < 0) {
+        TLOGE("Ashish: failed to create file: %d\n", rc);
+        goto error;
+    }
+    memset(data, 0, size);
+    rc = storage_write(handle, 0, data, size, STORAGE_OP_COMPLETE);
+    storage_close_file(handle);
+error:
+    storage_close_session(session);
+    return 0;
+}
+int main(void) {
+    int rc;
+    handle_t hport;
+    uuid_t peer_uuid;
+    TLOGI("Ashish: Starting storage test app!!!\n");
+    /* create control port and wait on it */
+    rc = port_create(TEST_CTRL_PORT, 1, 1024, IPC_PORT_ALLOW_NS_CONNECT);
+    if (rc < 0) {
+        TLOGE("Ashish: failed (%d) to create ctrl port\n", rc);
+        return rc;
+    }
+    hport = (handle_t)rc;
+    /* and just wait forever on control port  */
+    for (;;) {
+        uevent_t uevt;
+        int rc = wait(hport, &uevt, INFINITE_TIME);
+        if (rc == NO_ERROR) {
+            if (uevt.event & IPC_HANDLE_POLL_READY) {
+                /* got connection request */
+                rc = accept(uevt.handle, &peer_uuid);
+                if (rc >= 0) {
+                    handle_t ctrl_chan = (handle_t)rc;
+                    for (;;) {
+                        rc = write_file(256);
+                        if (rc < 0)
+                            break;
+                        rc = wait(ctrl_chan, &uevt, 0);
+                        if (rc == ERR_CHANNEL_CLOSED) {
+                            TLOGD("Ashish: channel closed\n");
+                            break;
+                        }
+                        if (uevt.event & IPC_HANDLE_POLL_HUP) {
+                            TLOGD("Ashish: POLL_HUP\n");
+                            break;
+                        }
+                    }
+                    close(ctrl_chan);
+                    continue;
+                } else {
+                    TLOGE("Ashish: accept() failed\n");
+                }
+            }
+        }
+        if (rc < 0)
+            break;
+    }
+    TLOGD("Ashish: exiting with exit code %d\n", rc);
+    return rc;
+}

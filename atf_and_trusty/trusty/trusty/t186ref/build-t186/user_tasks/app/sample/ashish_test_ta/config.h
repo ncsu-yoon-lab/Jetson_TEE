@@ -1,0 +1,4 @@
+#ifndef __t186ref_build_t186_user_tasks_app_sample_ashish_test_ta_config_h_H
+#define __t186ref_build_t186_user_tasks_app_sample_ashish_test_ta_config_h_H
+#define USER_TASK 1
+#endif
