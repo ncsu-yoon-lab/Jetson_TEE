@@ -43,6 +43,7 @@ void arm_bl1_early_platform_setup(void)
 #endif
 
 	/* Initialize the console to provide early debug support */
+	//VISHRUT
 	console_init(PLAT_ARM_BOOT_UART_BASE, PLAT_ARM_BOOT_UART_CLK_IN_HZ,
 			ARM_CONSOLE_BAUDRATE);
 

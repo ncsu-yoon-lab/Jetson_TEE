@@ -19,7 +19,8 @@ t186ref/tegra/t186/release/bl31/bl31_main.o: bl31/bl31_main.c \
  include/lib/runtime_instr.h include/common/runtime_svc.h \
  include/lib/aarch64/smccc_helpers.h include/lib/smccc.h \
  include/lib/smccc_v1.h include/lib/el3_runtime/aarch64/context.h \
- include/services/std_svc.h include/lib/stdlib/string.h
+ include/services/std_svc.h include/lib/stdlib/string.h \
+ plat/nvidia/tegra/include/drivers/bpmp.h
 
 include/lib/aarch64/arch.h:
 
@@ -104,3 +105,5 @@ include/lib/el3_runtime/aarch64/context.h:
 include/services/std_svc.h:
 
 include/lib/stdlib/string.h:
+
+plat/nvidia/tegra/include/drivers/bpmp.h:

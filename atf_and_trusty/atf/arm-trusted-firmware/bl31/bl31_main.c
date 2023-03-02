@@ -19,10 +19,29 @@
 #include <std_svc.h>
 #include <string.h>
 
+//Vishrut
+#include <bpmp.h>
+
 #if ENABLE_RUNTIME_INSTRUMENTATION
 PMF_REGISTER_SERVICE_SMC(rt_instr_svc, PMF_RT_INSTR_SVC_ID,
 	RT_INSTR_TOTAL_IDS, PMF_STORE_ENABLE)
 #endif
+
+
+// VISHRUT
+#define TEGRAX2_BPMP_RESET_ID_UARTC     (49)
+#define COMMAND_RESET_DEASSERT (2)
+# define MRQ_RESET (20)
+
+
+typedef struct
+{
+    uint32_t cmd;
+    uint32_t reset_id;
+} mrq_reset_t;
+
+
+//VISHRUT ends
 
 /*******************************************************************************
  * This function pointer is used to initialise the BL32 image. It's initialized
@@ -74,6 +93,9 @@ void bl31_main(void)
 	NOTICE("BL31: %s\n", version_string);
 	NOTICE("BL31: %s\n", build_message);
 
+
+	
+
 	/* Perform platform setup in BL31 */
 	bl31_platform_setup();
 
@@ -114,6 +136,31 @@ void bl31_main(void)
 	 * from BL31
 	 */
 	bl31_plat_runtime_setup();
+
+	/*
+	 * Perform Intialization of UART 3 VISHRUT
+	 * from BL31 
+	 */
+	NOTICE(" INTIALIZING UART: 3 \n");
+
+	int32_t* reset_dessert_uart3_ib;
+	mrq_reset_t* reset_dessert_uart3_ob ;
+
+
+	int mrq_packet_size = sizeof(reset_dessert_uart3_ob);
+	uint32_t mrq_return =0;
+
+	reset_dessert_uart3_ob->cmd = COMMAND_RESET_DEASSERT;
+	reset_dessert_uart3_ob->reset_id = TEGRAX2_BPMP_RESET_ID_UARTC;
+
+
+	mrq_return = tegra_bpmp_send_receive_atomic(MRQ_RESET, (void *)&reset_dessert_uart3_ob, mrq_packet_size,
+		(void *)&reset_dessert_uart3_ib, mrq_packet_size);
+
+	if (mrq_return != 0)
+	{
+		NOTICE(" INTIALIZING UART DONE \n");
+	}
 }
 
 /*******************************************************************************
